@@ -4,26 +4,39 @@ source ~/dotfiles/.scripts/separate_echo.sh
 separate_echo "ZSH / ohmyzsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+
 separate_echo "ZSH / zinit"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+
 
 separate_echo "ZSH / Antigen"
 curl -L git.io/antigen > ~/antigen.zsh
 
+
 separate_echo "asdf"
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
+
+
+separate_echo "Doom Emacs"
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+
 
 separate_echo "Kitty theme install" # https://github.com/connorholyday/kitty-snazzy
 curl -o ~/.config/kitty/ktheme.conf https://raw.githubusercontent.com/connorholyday/kitty-snazzy/master/snazzy.conf
 
-separate_echo "Install Phoenix"
-mix archive.install hex phx_new
-
-
-#-----------------------------------------------------------------------#
 
 separate_echo "Cabal update"
 cabal update
+
+#-----------------------------------------------------------------------#
+
+separate_echo "Mix"
+mix archive.install hex phx_new
+
+
+separate_echo "Docker image"
+sudo docker pull dpage/pgadmin4
 
 
 separate_echo "Yarn install"

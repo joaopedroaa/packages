@@ -1,9 +1,9 @@
 from apps import *
 
 
-def save_files(DATA):
+def save_files(DATA, writeLocation):
     for category in DATA:
-        with open(f"./sh/install/{category}.sh", 'w') as file:
+        with open(f"{writeLocation}/{category}.sh", 'w') as file:
             file.write(DATA[category][0])
 
 
@@ -46,7 +46,7 @@ def main():
     create_lines(base, 3, xfce)
     create_lines(base, 4, i3)
     create_lines(base, 5, xmonad)
-    save_files(base)
+    save_files(base, "./build/download")
 
 
 main()

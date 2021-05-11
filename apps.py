@@ -1,14 +1,14 @@
 apps = {
-    "arch":                 ["paru"],
-    "apps":                 ["bitwarden-bin", "redshift", "mailspring"],
-    "bluetooth":            ["bluez", "bluez-libs", "bluez-utils", "blueberry"],
-    "android":              ["android-sdk", "android-tools", "kdeconnect"],
-    "key":                  ["gnome-keyring"],
-    "archiso":              ["qemu", "edk2-ovmf"],
-
+    "apps/arch":            ["paru"],
+    "apps/email":           ["mailspring"],
+    "apps/password":        ["bitwarden-bin"],
     "apps/torrent":         ["qbittorrent", "stremio"],
     "apps/browsers":        ["chromium", "tor-browser", "firefox-developer-edition"],
     "apps/communication":   ["discord_arch_electron", "zoom"],
+
+    "config/screen":        ["redshift"],
+    "config/bluetooth":     ["bluez", "bluez-libs", "bluez-utils", "blueberry"],
+    "config/security":      ["gnome-keyring"],
 
     "media/image":          ["krita"],
     "media/video":          ["vlc", "obs-studio"],
@@ -18,33 +18,53 @@ apps = {
     "hardware/gpu":         ["gwe"],
     "hardware/hd":          ["gparted-git", "gsmartcontrol", "agedu"],
 
-    "driver/gpu":           ["nvidia", "nvidia-utils", "nvidia-settings", "mesa-demos"],
+    "driver/gpu":           ["nvidia-390xx",
+                             "nvidia-390xx-utils",
+                             "lib32-nvidia-390xx-utils",
+                             "nvidia-settings",
+                             "mesa-demos"],
 
-    "console":              ["xclip", "xsel", "youtube-dl"],
-    "console/fun":          ["cava", "cbonsai", "lolcat"],
-    "console/zsh":          ["zsh", "oh-my-zsh-git"],
-    "console/zsh/config":   ["antigen-git", "spaceship-prompt-git"],
+    "terminal":             ["xclip", "xsel", "youtube-dl"],
+    "terminal/wm":          ["tmux"],
+    "terminal/fun":         ["cava", "cbonsai", "lolcat"],
 
-    "console/ui":           ["lazygit-bin", "lazydocker-bin"],
-    "console/ui/activity":  ["gotop-bin", "htop"],
-    "console/ui/sysinfo":   ["neofetch", "inxi"],
+    "terminal/zsh":         ["zsh", "oh-my-zsh-git"],
+    "terminal/zsh/config":  ["antigen-git", "spaceship-prompt-git"],
+
+    "terminal/ui":          ["lazygit-bin", "lazydocker-bin"],
+    "terminal/ui/activity": ["gotop-bin", "htop"],
+    "terminal/ui/sysinfo":  ["neofetch", "inxi"],
 
     "spotify":              ["spotify-snap", "spotify-adblock-linux"],
     "spotify/spicetify":    ["spicetify-cli", "spicetify-themes-git"],
 
     "fonts/nerd":           ["nerd-fonts-complete"],
-    "fonts/ttf":            ["ttf-fira-code", "ttf-ibm-plex-mono-git", "ttf-liberation", "ttf-roboto", "ttf-dejavu", "ttf-droid", "ttf-inconsolata", "ttf-liberation", "ttf-unifont", "ttf-ms-fonts", "ttf-font-icons"],
-    "fonts/misc":           ["awesome-terminal-fonts"]
+    "fonts/misc":           ["awesome-terminal-fonts"],
+    "fonts/ttf":            ["ttf-fira-code",
+                             "ttf-ibm-plex-mono-git",
+                             "ttf-liberation",
+                             "ttf-roboto", "ttf-dejavu",
+                             "ttf-droid",
+                             "ttf-inconsolata",
+                             "ttf-liberation",
+                             "ttf-unifont",
+                             "ttf-ms-fonts",
+                             "ttf-liberation",
+                             "ttf-font-icons"],
 }
 
 
 development = {
-    "cli":                  ["vsce", "exercism", "wakatime", "openssh"],
-    "vm":                   ["docker", "virtualbox-ext-oracle"],
-    "api":                  ["insomnia-bin", "postman-bin"],
+    "apps/cli":             ["vsce", "exercism", "wakatime"],
+    "apps/api":             ["insomnia-bin", "postman-bin"],
+    "apps/vm":              ["docker", "virtualbox-ext-oracle"],
+
+    "config/network":       ["openssh"],
+    "config/android":       ["android-sdk", "android-tools", "kdeconnect"],
+    "config/archiso":       ["archiso-git", "qemu", "edk2-ovmf"],
 
     "editors":              ["visual-studio-code-insiders-bin", "intellij-idea-community-edition", "neovim"],
-    "editors/emacs":        ["emacs", "emacs-doom-themes-git", "fd", "ripgrep"],
+    "editors/emacs":        ["emacs", "fd", "ripgrep"],
 
     "lang/js":              ["nvm-git", "yarn"],
     "lang/php":             ["apache", "mysql", "php", "php-apache", "phpmyadmin"],
@@ -55,7 +75,10 @@ development = {
     "lang/python":          ["python", "autopep8"],
     "lang/elixir":          ["elixir", "inotify-tools"],
     "lang/haskell":         ["ghc", "cabal-install-bin", "stack"],
-    "lang/mark":            ["pandoc-bin"]
+    "lang/mark":            ["pandoc-bin"],
+
+    "db/postgres":          ["postgresql", "pgadmin4"]
+
 }
 
 
@@ -63,11 +86,12 @@ development = {
 
 
 plasma = {
-    "filemanager":          ["dolphin", "dolphin-plugins"],
-    "desktop":              ["plank", "superpaper"],
-    "unpackfiles":          ["ark"],
-    "console":              ["konsole", "yakuake"],
     "kvantum":              ["kvantum-qt5-git", "kvantum-theme-layan-git"],
+
+    "desktop":              ["plank", "superpaper"],
+    "terminal":             ["konsole", "yakuake"],
+    "packfiles":            ["ark"],
+    "filemanager":          ["dolphin", "dolphin-plugins"],
 
     "media/image":          ["gwenview"],
     "media/docs":           ["okular"]
@@ -79,33 +103,42 @@ xfce = {
     "menu":                 ["dmenu", "rofi", "rofi-calc"],
 
     "desktop":              ["nitrogen", "lxappearance", "dunst-git"],
-    "unpackfiles":          ["xarchiver", "rar", "unrar", "zip", "unzip", "p7zip"],
-    "console":              ["kitty", "alacritty-git", "xcompmgr"],
+    "terminal":             ["kitty", "alacritty-git", "xcompmgr"],
+    "packfiles":            ["xarchiver", "rar", "unrar", "zip", "unzip", "p7zip"],
+
+    "filemanager":          ["thunar", "thunar-archive-plugin", "thunar-volman"],
+    "filemanager/tumbler":  ["tumbler", "ffmpegthumbnailer"],
+    "filemanager/terminal": ["lf", "ranger"],
 
     "filesystem":           ["sshfs", "ntfs-3g"],
     "filesystem/mtp":       ["mtpfs", "jmtpfs"],
     "filesystem/gvfs":      ["gvfs", "gvfs-mtp", "gvfs-gphoto2"],
 
-    "filemanager":          ["thunar", "thunar-archive-plugin", "thunar-volman"],
-    "filemanager/tumbler":  ["tumbler", "ffmpegthumbnailer"],
-    "filemanager/console":  ["lf", "ranger"],
-
-    "dm/xorg":              ["xorg", "xorg-xinit-git"],
-    "dm/lightdm":           ["lightdm", "lightdm-gtk-greeter", "lightdm-gtk-greeter-settings", "lightdm-webkit2-greeter"],
-
-    "themes":               ["ant-dracula-gtk-theme"],
-    "themes/icons":         ["tela-icon-theme-git", "flatery-icon-theme-git"],
-    "themes/cursors":       ["capitaine-cursors"],
-
     "media/image":          ["feh", "imagemagick", "flameshot-git", "gcolor2"],
     "media/video":          ["mplayer"],
     "media/docs":           ["evince", "zathura", "zathura-pdf-poppler"],
 
-    "audio/pulseaudio":     ["pulseaudio", "pulseaudio-alsa", "pulseeffects-legacy", "pavucontrol"],
     "audio/alsa":           ["alsa-firmware", "alsa-lib", "alsa-plugins", "alsa-utils"],
     "audio/icon":           ["volumeicon"],
     "audio/cli":            ["playerctl"],
     "audio/synthesis":      ["festival", "festival-us"],
+    "audio/pulseaudio":     ["pulseaudio",
+                             "pulseaudio-alsa",
+                             "pulseeffects-legacy",
+                             "pavucontrol"],
+
+    "dm/xorg":              ["xorg", "xorg-xinit-git"],
+    "dm/lightdm":           ["lightdm",
+                             "lightdm-gtk-greeter",
+                             "lightdm-gtk-greeter-settings",
+                             "lightdm-webkit2-greeter"],
+
+    "themes/icons":         ["tela-icon-theme-git", "flatery-icon-theme-git"],
+    "themes/cursors":       ["capitaine-cursors"],
+    "themes/colors":        ["ant-dracula-gtk-theme",
+                             "chicago95-gtk-theme-git",
+                             "gruvbox-material-gtk-theme-git",
+                             "yaru-gtk-theme"],
 }
 
 

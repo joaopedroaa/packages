@@ -14,12 +14,24 @@ echo "============================== xfce / Desktop (3) ====================="
 yay -S nitrogen lxappearance dunst-git --noconfirm
 clear
 
-echo "============================== xfce / Unpackfiles (6) ====================="
+echo "============================== xfce / Terminal (3) ====================="
+yay -S kitty alacritty-git xcompmgr --noconfirm
+clear
+
+echo "============================== xfce / Packfiles (6) ====================="
 yay -S xarchiver rar unrar zip unzip p7zip --noconfirm
 clear
 
-echo "============================== xfce / Console (3) ====================="
-yay -S kitty alacritty-git xcompmgr --noconfirm
+echo "============================== xfce / Filemanager (3) ====================="
+yay -S thunar thunar-archive-plugin thunar-volman --noconfirm
+clear
+
+echo "============================== xfce / Filemanager / Tumbler (2) ====================="
+yay -S tumbler ffmpegthumbnailer --noconfirm
+clear
+
+echo "============================== xfce / Filemanager / Terminal (2) ====================="
+yay -S lf ranger --noconfirm
 clear
 
 echo "============================== xfce / Filesystem (2) ====================="
@@ -34,38 +46,6 @@ echo "============================== xfce / Filesystem / Gvfs (3) ==============
 yay -S gvfs gvfs-mtp gvfs-gphoto2 --noconfirm
 clear
 
-echo "============================== xfce / Filemanager (3) ====================="
-yay -S thunar thunar-archive-plugin thunar-volman --noconfirm
-clear
-
-echo "============================== xfce / Filemanager / Tumbler (2) ====================="
-yay -S tumbler ffmpegthumbnailer --noconfirm
-clear
-
-echo "============================== xfce / Filemanager / Console (2) ====================="
-yay -S lf ranger --noconfirm
-clear
-
-echo "============================== xfce / Dm / Xorg (2) ====================="
-yay -S xorg xorg-xinit-git --noconfirm
-clear
-
-echo "============================== xfce / Dm / Lightdm (4) ====================="
-yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lightdm-webkit2-greeter --noconfirm
-clear
-
-echo "============================== xfce / Themes (1) ====================="
-yay -S ant-dracula-gtk-theme --noconfirm
-clear
-
-echo "============================== xfce / Themes / Icons (2) ====================="
-yay -S tela-icon-theme-git flatery-icon-theme-git --noconfirm
-clear
-
-echo "============================== xfce / Themes / Cursors (1) ====================="
-yay -S capitaine-cursors --noconfirm
-clear
-
 echo "============================== xfce / Media / Image (4) ====================="
 yay -S feh imagemagick flameshot-git gcolor2 --noconfirm
 clear
@@ -76,10 +56,6 @@ clear
 
 echo "============================== xfce / Media / Docs (3) ====================="
 yay -S evince zathura zathura-pdf-poppler --noconfirm
-clear
-
-echo "============================== xfce / Audio / Pulseaudio (4) ====================="
-yay -S pulseaudio pulseaudio-alsa pulseeffects-legacy pavucontrol --noconfirm
 clear
 
 echo "============================== xfce / Audio / Alsa (4) ====================="
@@ -96,5 +72,29 @@ clear
 
 echo "============================== xfce / Audio / Synthesis (2) ====================="
 yay -S festival festival-us --noconfirm
+clear
+
+echo "============================== xfce / Audio / Pulseaudio (4) ====================="
+yay -S pulseaudio pulseaudio-alsa pulseeffects-legacy pavucontrol --noconfirm
+clear
+
+echo "============================== xfce / Dm / Xorg (2) ====================="
+yay -S xorg xorg-xinit-git --noconfirm
+clear
+
+echo "============================== xfce / Dm / Lightdm (4) ====================="
+yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lightdm-webkit2-greeter --noconfirm
+clear
+
+echo "============================== xfce / Themes / Icons (2) ====================="
+yay -S tela-icon-theme-git flatery-icon-theme-git --noconfirm
+clear
+
+echo "============================== xfce / Themes / Cursors (1) ====================="
+yay -S capitaine-cursors --noconfirm
+clear
+
+echo "============================== xfce / Themes / Colors (4) ====================="
+yay -S ant-dracula-gtk-theme chicago95-gtk-theme-git gruvbox-material-gtk-theme-git yaru-gtk-theme --noconfirm
 clear
 
