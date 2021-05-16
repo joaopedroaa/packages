@@ -1,32 +1,32 @@
-echo "============================== Apps Dev / Apps / Cli (3) ====================="
+echo "============================== Apps Dev / Apps / Cli! (3) ====================="
 yay -S vsce exercism wakatime --noconfirm
 clear
 
-echo "============================== Apps Dev / Apps / Api (2) ====================="
+echo "============================== Apps Dev / Apps / Api! (2) ====================="
 yay -S insomnia-bin postman-bin --noconfirm
 clear
 
-echo "============================== Apps Dev / Apps / Vm (2) ====================="
+echo "============================== Apps Dev / Apps / Vm! (2) ====================="
 yay -S docker virtualbox-ext-oracle --noconfirm
 clear
 
-echo "============================== Apps Dev / Config / Network (1) ====================="
+echo "============================== Apps Dev / Config / Network! (1) ====================="
 yay -S openssh --noconfirm
 clear
 
-echo "============================== Apps Dev / Config / Android (3) ====================="
+echo "============================== Apps Dev / Config / Android! (3) ====================="
 yay -S android-sdk android-tools kdeconnect --noconfirm
 clear
 
-echo "============================== Apps Dev / Config / Archiso (3) ====================="
+echo "============================== Apps Dev / Config / Archiso! (3) ====================="
 yay -S archiso-git qemu edk2-ovmf --noconfirm
 clear
 
-echo "============================== Apps Dev / Editors (3) ====================="
+echo "============================== Apps Dev / Editors! (3) ====================="
 yay -S visual-studio-code-insiders-bin intellij-idea-community-edition neovim --noconfirm
 clear
 
-echo "============================== Apps Dev / Editors / Emacs (3) ====================="
+echo "============================== Apps Dev / Editors / Emacs! (3) ====================="
 yay -S emacs fd ripgrep --noconfirm
 clear
 

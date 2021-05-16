@@ -1,22 +1,22 @@
 apps = {
-    "apps/arch":            ["paru"],
-    "apps/email":           ["mailspring"],
-    "apps/password":        ["bitwarden-bin"],
-    "apps/torrent":         ["qbittorrent", "stremio"],
-    "apps/browsers":        ["chromium", "tor-browser", "firefox-developer-edition"],
-    "apps/communication":   ["discord_arch_electron", "zoom"],
+    "apps/arch!":           ["paru", "ntp"],
+    "apps/email!":          ["mailspring"],
+    "apps/password!":       ["bitwarden-bin"],
+    "apps/torrent!":        ["qbittorrent", "stremio"],
+    "apps/browsers!":       ["chromium", "tor-browser", "firefox-developer-edition"],
+    "apps/communication!":  ["discord_arch_electron", "zoom"],
 
-    "config/screen":        ["redshift"],
-    "config/bluetooth":     ["bluez", "bluez-libs", "bluez-utils", "blueberry"],
-    "config/security":      ["gnome-keyring"],
+    "config/screen!":       ["redshift"],
+    "config/bluetooth!":    ["bluez", "bluez-libs", "bluez-utils", "blueberry"],
+    "config/security!":     ["gnome-keyring"],
 
-    "media/image":          ["krita"],
-    "media/video":          ["vlc", "obs-studio"],
+    "media/image!":         ["krita"],
+    "media/video!":         ["vlc", "obs-studio"],
 
-    "hardware/boot":        ["os-prober", "grub-customizer", "woeusb"],
-    "hardware/cpu":         ["cpu-x-git", "s-tui", "stress"],
-    "hardware/gpu":         ["gwe"],
-    "hardware/hd":          ["gparted-git", "gsmartcontrol", "agedu"],
+    "hardware/boot!":       ["os-prober", "grub-customizer", "woeusb"],
+    "hardware/cpu!":        ["cpu-x-git", "s-tui", "stress"],
+    "hardware/gpu!":        ["gwe"],
+    "hardware/hd!":         ["gparted-git", "gsmartcontrol", "agedu", "ncdu"],
 
     "driver/gpu":           ["nvidia-390xx",
                              "nvidia-390xx-utils",
@@ -24,21 +24,20 @@ apps = {
                              "nvidia-settings",
                              "mesa-demos"],
 
-    "terminal":             ["xclip", "xsel", "youtube-dl"],
-    "terminal/wm":          ["tmux"],
-    "terminal/fun":         ["cava", "cbonsai", "lolcat"],
+    "terminal!":            ["xclip", "xsel", "youtube-dl"],
+    "terminal/fun!":        ["cava", "cbonsai", "lolcat", "hollywood"],
+    "terminal/wm!":         ["tmux"],
+    "terminal/filemanager!":["lf", "ranger"],
+    "terminal/zsh!":        ["zsh", "oh-my-zsh-git"],
+    "terminal/zsh/config!": ["antigen-git", "spaceship-prompt-git"],
+    "terminal/ui!":         ["lazygit-bin", "lazydocker-bin"],
+    "terminal/ui/activity!":["gotop-bin", "htop"],
+    "terminal/ui/sysinfo!": ["neofetch", "inxi"],
 
-    "terminal/zsh":         ["zsh", "oh-my-zsh-git"],
-    "terminal/zsh/config":  ["antigen-git", "spaceship-prompt-git"],
-
-    "terminal/ui":          ["lazygit-bin", "lazydocker-bin"],
-    "terminal/ui/activity": ["gotop-bin", "htop"],
-    "terminal/ui/sysinfo":  ["neofetch", "inxi"],
-
-    "spotify":              ["spotify-snap", "spotify-adblock-linux"],
+    "spotify":              ["spotify-snap", "spotify-adblock"],
     "spotify/spicetify":    ["spicetify-cli", "spicetify-themes-git"],
 
-    "fonts/nerd":           ["nerd-fonts-complete"],
+    "fonts/nerd!":          ["nerd-fonts-complete"],
     "fonts/misc":           ["awesome-terminal-fonts"],
     "fonts/ttf":            ["ttf-fira-code",
                              "ttf-ibm-plex-mono-git",
@@ -53,18 +52,17 @@ apps = {
                              "ttf-font-icons"],
 }
 
-
 development = {
-    "apps/cli":             ["vsce", "exercism", "wakatime"],
-    "apps/api":             ["insomnia-bin", "postman-bin"],
-    "apps/vm":              ["docker", "virtualbox-ext-oracle"],
+    "apps/cli!":            ["vsce", "exercism", "wakatime"],
+    "apps/api!":            ["insomnia-bin", "postman-bin"],
+    "apps/vm!":             ["docker", "virtualbox-ext-oracle"],
 
-    "config/network":       ["openssh"],
-    "config/android":       ["android-sdk", "android-tools", "kdeconnect"],
-    "config/archiso":       ["archiso-git", "qemu", "edk2-ovmf"],
+    "config/network!":      ["openssh"],
+    "config/android!":      ["android-sdk", "android-tools", "kdeconnect"],
+    "config/archiso!":      ["archiso-git", "qemu", "edk2-ovmf"],
 
-    "editors":              ["visual-studio-code-insiders-bin", "intellij-idea-community-edition", "neovim"],
-    "editors/emacs":        ["emacs", "fd", "ripgrep"],
+    "editors!":             ["visual-studio-code-insiders-bin", "intellij-idea-community-edition", "neovim"],
+    "editors/emacs!":       ["emacs", "fd", "ripgrep"],
 
     "lang/js":              ["nvm-git", "yarn"],
     "lang/php":             ["apache", "mysql", "php", "php-apache", "phpmyadmin"],
@@ -86,41 +84,41 @@ development = {
 
 
 plasma = {
-    "kvantum":              ["kvantum-qt5-git", "kvantum-theme-layan-git"],
+    "kvantum!":             ["kvantum-qt5-git"],
+    "kvantum/theme":        ["kvantum-theme-layan-git"],
 
-    "desktop":              ["plank", "superpaper"],
-    "terminal":             ["konsole", "yakuake"],
+    "desktop!":             ["plank", "superpaper"],
+    "terminal!":            ["konsole", "yakuake"],
     "packfiles":            ["ark"],
-    "filemanager":          ["dolphin", "dolphin-plugins"],
+    "filemanager!":         ["dolphin", "dolphin-plugins"],
 
-    "media/image":          ["gwenview"],
-    "media/docs":           ["okular"]
+    "media/image!":         ["gwenview"],
+    "media/docs!":          ["okular"]
 }
 
 xfce = {
     "xfce":                 ["xfce4-settings"],
-    "compositor":           ["picom"],
-    "menu":                 ["dmenu", "rofi", "rofi-calc"],
+    "compositor!":          ["picom"],
+    "menu!":                ["dmenu", "rofi", "rofi-calc"],
 
-    "desktop":              ["nitrogen", "lxappearance", "dunst-git"],
-    "terminal":             ["kitty", "alacritty-git", "xcompmgr"],
-    "packfiles":            ["xarchiver", "rar", "unrar", "zip", "unzip", "p7zip"],
+    "desktop!":             ["nitrogen", "lxappearance", "dunst-git"],
+    "terminal!":            ["kitty", "alacritty-git", "xcompmgr"],
+    "packfiles!":           ["xarchiver", "rar", "unrar", "zip", "unzip", "p7zip"],
 
-    "filemanager":          ["thunar", "thunar-archive-plugin", "thunar-volman"],
-    "filemanager/tumbler":  ["tumbler", "ffmpegthumbnailer"],
-    "filemanager/terminal": ["lf", "ranger"],
+    "filemanager!":         ["thunar", "thunar-archive-plugin", "thunar-volman"],
+    "filemanager/tumbler!": ["tumbler", "ffmpegthumbnailer"],
 
-    "filesystem":           ["sshfs", "ntfs-3g"],
+    "filesystem!":          ["sshfs", "ntfs-3g"],
     "filesystem/mtp":       ["mtpfs", "jmtpfs"],
     "filesystem/gvfs":      ["gvfs", "gvfs-mtp", "gvfs-gphoto2"],
 
-    "media/image":          ["feh", "imagemagick", "flameshot-git", "gcolor2"],
-    "media/video":          ["mplayer"],
-    "media/docs":           ["evince", "zathura", "zathura-pdf-poppler"],
+    "media/image!":         ["feh", "imagemagick", "flameshot-git", "gcolor2"],
+    "media/video!":         ["mplayer"],
+    "media/docs!":          ["evince", "zathura", "zathura-pdf-poppler"],
 
-    "audio/alsa":           ["alsa-firmware", "alsa-lib", "alsa-plugins", "alsa-utils"],
+    "audio/alsa!":          ["alsa-firmware", "alsa-lib", "alsa-plugins", "alsa-utils"],
     "audio/icon":           ["volumeicon"],
-    "audio/cli":            ["playerctl"],
+    "audio/cli!":           ["playerctl"],
     "audio/synthesis":      ["festival", "festival-us"],
     "audio/pulseaudio":     ["pulseaudio",
                              "pulseaudio-alsa",
@@ -128,7 +126,7 @@ xfce = {
                              "pavucontrol"],
 
     "dm/xorg":              ["xorg", "xorg-xinit-git"],
-    "dm/lightdm":           ["lightdm",
+    "dm/lightdm!":          ["lightdm",
                              "lightdm-gtk-greeter",
                              "lightdm-gtk-greeter-settings",
                              "lightdm-webkit2-greeter"],
@@ -146,14 +144,14 @@ xfce = {
 
 
 i3 = {
-    "i3":                   ["i3-gaps", "autotiling-git", "perl-anyevent-i3"],
-    "lock":                 ["i3lock"],
-    "bar":                  ["i3blocks", "py3status", "polybar"],
+    "i3!":                  ["i3-gaps", "autotiling-git", "perl-anyevent-i3"],
+    "lock!":                ["i3lock"],
+    "bar!":                 ["i3blocks", "py3status", "polybar"],
 }
 
 
 xmonad = {
-    "xmonad":               ["xmonad", "xmonad-contrib", "xmonad-utils", "xmonad-log"],
-    "haskell":              ["haskell-dbus"],
-    "bar":                  ["xmobar"],
+    "xmonad!":              ["xmonad", "xmonad-contrib", "xmonad-utils", "xmonad-log"],
+    "haskell!":             ["haskell-dbus"],
+    "bar!":                 ["xmobar"],
 }

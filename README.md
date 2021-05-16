@@ -1,0 +1,146 @@
+
+---------
+- [paru](https://github.com/morganamilo/paru) - Feature packed AUR helper
+- [ntp](http://www.ntp.org/) - Network Time Protocol reference implementation
+- [mailspring](https://getmailspring.com/) - A beautiful, fast and maintained fork of Nylas Mail by one of the original authors.
+- [bitwarden-bin](https://bitwarden.com) - A secure and free password manager for all of your devices.
+- [qbittorrent](https://www.qbittorrent.org) - An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar.
+- [stremio](https://www.stremio.com/) - A one-stop hub for video content aggregation (Movies, TV shows, series, live television or web channels)
+- [chromium](https://www.chromium.org/Home) - A web browser built for speed, simplicity, and security
+- [tor-browser](https://www.torproject.org/projects/torbrowser.html) - Tor Browser Bundle: anonymous browsing using Firefox and Tor (international PKGBUILD)
+- [firefox-developer-edition](https://www.mozilla.org/firefox/channel/#developer) - Developer Edition of the popular Firefox web browser
+- [discord_arch_electron](https://discordapp.com) - Discord (popular voice + video app) using the system provided electron for increased security and performance
+- [zoom](https://zoom.us/) - Video Conferencing and Web Conferencing Service
+- [redshift](http://jonls.dk/redshift/) - Adjusts the color temperature of your screen according to your surroundings.
+- [bluez](http://www.bluez.org/) - Daemons for the bluetooth protocol stack
+- [bluez-libs](http://www.bluez.org/) - Deprecated libraries for the bluetooth protocol stack
+- [bluez-utils](http://www.bluez.org/) - Development and debugging utilities for the bluetooth protocol stack
+- [blueberry](https://github.com/linuxmint/blueberry) - Bluetooth configuration tool
+- [gnome-keyring](https://wiki.gnome.org/Projects/GnomeKeyring) - Stores passwords and encryption keys
+- [krita](https://krita.org) - Edit and paint images
+- [vlc](https://www.videolan.org/vlc/) - Multi-platform MPEG, VCD/DVD, and DivX player
+- [obs-studio](https://obsproject.com) - Free, open source software for live streaming and recording
+- [os-prober](https://joeyh.name/code/os-prober/) - Utility to detect other OSes on a set of drives
+- [grub-customizer](https://launchpad.net/grub-customizer) - A graphical grub2 settings manager
+- [woeusb](https://github.com/slacka/WoeUSB) - A Linux program to create Windows USB stick installer from a Windows DVD or an image
+- [cpu-x-git](http://X0rg.github.io/CPU-X/) - A Free software that gathers information on CPU, motherboard and more
+- [s-tui](https://github.com/amanusk/s-tui) - Terminal UI stress test and monitoring tool
+- [stress](http://people.seas.harvard.edu/~apw/stress/) - A tool that stress tests your system (CPU, memory, I/O, disks)
+- [gwe](https://gitlab.com/leinardi/gwe) - A system utility for controlling NVIDIA GPUs
+- [gparted-git](https://gparted.org/) - A Partition Magic clone, frontend to GNU Parted
+- [gsmartcontrol](https://gsmartcontrol.sourceforge.io/home/) - A graphical user interface for the smartctl hard disk drive health inspection tool.
+- [agedu](http://www.chiark.greenend.org.uk/~sgtatham/agedu/) - A UNIX utility for tracking down wasted disk space
+- [ncdu](https://dev.yorhel.nl/ncdu) - Disk usage analyzer with an ncurses interface
+- [xclip](https://github.com/astrand/xclip) - Command line interface to the X11 clipboard
+- [xsel](http://www.vergenet.net/~conrad/software/xsel/) - XSel is a command-line program for getting and setting the contents of the X selection
+- [youtube-dl](https://ytdl-org.github.io/youtube-dl/) - A command-line program to download videos from YouTube.com and a few more sites
+- [cava](https://github.com/karlstav/cava) - Console-based Audio Visualizer for Alsa
+- [cbonsai](https://gitlab.com/jallbrit/cbonsai) - A bonsai tree generator, written in C using ncurses
+- [lolcat](https://github.com/busyloop/lolcat) - Okay, no unicorns. But rainbows!!
+- [hollywood](https://github.com/dustinkirkland/hollywood) - Fill your console with Hollywood melodrama technobabble.
+- [tmux](https://github.com/tmux/tmux/wiki) - A terminal multiplexer
+- [lf](https://github.com/gokcehan/lf) - A terminal file manager inspred by ranger written in Go
+- [ranger](https://ranger.github.io) - Simple, vim-like file manager
+- [zsh](https://www.zsh.org/) - A very advanced and programmable command interpreter (shell) for UNIX
+- [oh-my-zsh-git](https://github.com/ohmyzsh/ohmyzsh) - A community-driven framework for managing your zsh configuration. Includes 180+ optional plugins and over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community
+- [antigen-git](https://github.com/zsh-users/antigen) - A plugin manager for zsh, inspired by oh-my-zsh and vundle.
+- [spaceship-prompt-git](https://denysdovhan.com/spaceship-prompt/) - A Zsh prompt for Astronauts
+- [lazygit-bin](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands. Pre-compiled.
+- [lazydocker-bin](https://github.com/jesseduffield/lazydocker) - A simple terminal UI for docker and docker-compose, written in Go with the gocui library.
+- [gotop-bin](https://github.com/xxxserxxx/gotop) - A terminal based graphical activity monitor inspired by gtop and vtop
+- [htop](https://htop.dev/) - Interactive process viewer
+- [neofetch](https://github.com/dylanaraps/neofetch) - A CLI system information tool written in BASH that supports displaying images.
+- [inxi](https://smxi.org/docs/inxi.htm) - Full featured CLI system information tool
+- [nerd-fonts-complete](https://github.com/ryanoasis/nerd-fonts) - Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts.
+
+---------
+- [vsce](https://github.com/Microsoft/vscode-vsce) - Visual Studio Code extension manager
+- [exercism](https://github.com/exercism/cli) - Command line client for https://exercism.io
+- [wakatime](https://github.com/wakatime/wakatime) - Command line interface used by all WakaTime text editor plugins
+- [insomnia-bin](https://insomnia.rest) - API Client and Design Platform for GraphQL and REST
+- [postman-bin](https://www.getpostman.com) - Build, test, and document your APIs faster
+- [docker](https://www.docker.com/) - Pack, ship and run any application as a lightweight container
+- [virtualbox-ext-oracle](https://www.virtualbox.org/) - Oracle VM VirtualBox Extension Pack
+- [openssh](https://www.openssh.com/portable.html) - Premier connectivity tool for remote login with the SSH protocol
+- [android-sdk](https://developer.android.com/studio/releases/sdk-tools.html) - Google Android SDK
+- [android-tools](http://tools.android.com/) - Android platform tools
+- [kdeconnect](https://community.kde.org/KDEConnect) - Adds communication between KDE and your smartphone
+- [archiso-git](https://gitlab.archlinux.org/archlinux/archiso) - Tools for creating Arch Linux live and install iso images
+- [qemu](https://wiki.qemu.org/) - A generic and open source machine emulator and virtualizer
+- [edk2-ovmf](https://github.com/tianocore/edk2) - Firmware for Virtual Machines (x86_64, i686)
+- [visual-studio-code-insiders-bin](https://code.visualstudio.com/) - Editor for building and debugging modern web and cloud applications (insiders version)
+- [intellij-idea-community-edition](https://www.jetbrains.com/idea/) - IDE for Java, Groovy and other programming languages with advanced refactoring features
+- [neovim](https://neovim.io) - Fork of Vim aiming to improve user experience, plugins, and GUIs
+- [emacs](https://www.gnu.org/software/emacs/emacs.html) - The extensible, customizable, self-documenting real-time display editor
+- [fd](https://github.com/sharkdp/fd) - Simple, fast and user-friendly alternative to find
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - A search tool that combines the usability of ag with the raw speed of grep
+
+---------
+- [kvantum-qt5-git](https://github.com/tsujan/Kvantum) - SVG-based Qt5 theme engine plus a config tool and extra themes
+- [plank](https://launchpad.net/plank) - Elegant, simple, clean dock
+- [superpaper](https://github.com/hhannine/Superpaper) - Cross-platform multi monitor wallpaper manager
+- [konsole](https://kde.org/applications/system/konsole/) - KDE's terminal emulator
+- [yakuake](https://kde.org/applications/system/org.kde.yakuake) - A drop-down terminal emulator based on KDE konsole technology
+- [dolphin](https://kde.org/applications/system/dolphin/) - KDE File Manager
+- [dolphin-plugins](https://www.kde.org/applications/system/dolphin/) - Extra Dolphin plugins
+- [gwenview](https://kde.org/applications/graphics/gwenview/) - A fast and easy to use image viewer
+- [okular](https://kde.org/applications/graphics/okular/) - Document Viewer
+
+---------
+- [picom](https://github.com/yshui/picom) - X compositor that may fix tearing issues
+- [dmenu](https://tools.suckless.org/dmenu/) - Generic menu for X
+- [rofi](https://github.com/DaveDavenport/rofi) - A window switcher, application launcher and dmenu replacement
+- [rofi-calc](https://github.com/svenstaro/rofi-calc) - Do calculations in rofi
+- [nitrogen](http://projects.l3ib.org/nitrogen/) - Background browser and setter for X windows
+- [lxappearance](https://wiki.lxde.org/en/LXAppearance) - Feature-rich GTK+ theme switcher of the LXDE Desktop
+- [dunst-git](https://dunst-project.org/) - Lightweight and customizable notification daemon
+- [kitty](https://github.com/kovidgoyal/kitty) - A modern, hackable, featureful, OpenGL-based terminal emulator
+- [alacritty-git](https://github.com/alacritty/alacritty) - A cross-platform, GPU-accelerated terminal emulator
+- [xcompmgr](https://xorg.freedesktop.org/) - Composite Window-effects manager for X.org
+- [xarchiver](https://github.com/ib/xarchiver) - GTK+ frontend to various command line archivers
+- [rar](https://www.rarlab.com) - A command-line port of the rar compression utility
+- [unrar](https://www.rarlab.com/rar_add.htm) - The RAR uncompression program
+- [zip](http://www.info-zip.org/Zip.html) - Compressor/archiver for creating and modifying zipfiles
+- [unzip](https://www.info-zip.org/UnZip.html) - For extracting and viewing files in .zip archives
+- [p7zip](http://p7zip.sourceforge.net/) - Command-line file archiver with high compression ratio
+- [thunar](https://docs.xfce.org/xfce/thunar/start) - Modern file manager for Xfce
+- [thunar-archive-plugin](https://docs.xfce.org/xfce/thunar/archive) - Create and extract archives in Thunar
+- [thunar-volman](https://docs.xfce.org/xfce/thunar/thunar-volman) - Automatic management of removeable devices in Thunar
+- [tumbler](https://www.xfce.org/) - D-Bus service for applications to request thumbnails
+- [ffmpegthumbnailer](https://github.com/dirkvdb/ffmpegthumbnailer) - Lightweight video thumbnailer that can be used by file managers.
+- [sshfs](https://github.com/libfuse/sshfs) - FUSE client based on the SSH File Transfer Protocol
+- [ntfs-3g](https://www.tuxera.com/community/open-source-ntfs-3g/) - NTFS filesystem driver and utilities
+- [feh](https://feh.finalrewind.org/) - Fast and light imlib2-based image viewer
+- [imagemagick](https://www.imagemagick.org/) - An image viewing/manipulation program
+- [flameshot-git](https://github.com/flameshot-org/flameshot) - Powerful yet simple to use screenshot software
+- [gcolor2](http://gcolor2.sf.net/) - A simple GTK+2 color selector
+- [mplayer](http://www.mplayerhq.hu/) - Media player for Linux
+- [evince](https://wiki.gnome.org/Apps/Evince) - Document viewer (PDF, Postscript, djvu, tiff, dvi, XPS, SyncTex support with gedit, comics books (cbr,cbz,cb7 and cbt))
+- [zathura](https://pwmt.org/projects/zathura/) - Minimalistic document viewer
+- [zathura-pdf-poppler](https://pwmt.org/projects/zathura-pdf-poppler/) - Adds pdf support to zathura by using the poppler engine
+- [alsa-firmware](https://alsa-project.org/) - Firmware binaries for loader programs in alsa-tools and hotplug firmware loader
+- [alsa-lib](https://www.alsa-project.org) - An alternative implementation of Linux sound support
+- [alsa-plugins](https://www.alsa-project.org) - Additional ALSA plugins
+- [alsa-utils](https://www.alsa-project.org) - Advanced Linux Sound Architecture - Utilities
+- [playerctl](https://github.com/acrisci/playerctl) - mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others.
+- [lightdm](https://github.com/canonical/lightdm) - A lightweight display manager
+- [lightdm-gtk-greeter](https://github.com/Xubuntu/lightdm-gtk-greeter) - GTK+ greeter for LightDM
+- [lightdm-gtk-greeter-settings](https://launchpad.net/lightdm-gtk-greeter-settings) - Settings editor for the LightDM GTK+ Greeter
+- [lightdm-webkit2-greeter](https://github.com/antergos/web-greeter) - LightDM greeter that uses WebKit2 for theming via HTML/JavaScript.
+
+---------
+- [i3-gaps](https://github.com/Airblader/i3) - A fork of i3wm tiling window manager with more features, including gaps
+- [autotiling-git](https://github.com/nwg-piotr/autotiling) - Script for sway and i3 to automatically switch the horizontal / vertical window split orientation
+- [perl-anyevent-i3](https://search.cpan.org/~mstplbg/AnyEvent-I3/) - Communicate with the i3 window manager
+- [i3lock](https://i3wm.org/i3lock/) - Improved screenlocker based upon XCB and PAM
+- [i3blocks](https://github.com/vivien/i3blocks) - Define blocks for your i3bar status line
+- [py3status](https://www.ultrabug.fr/tag/py3status/) - An extensible i3status replacement/wrapper written in python
+- [polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar
+
+---------
+- [xmonad](https://xmonad.org/) - Lightweight X11 tiled window manager written in Haskell
+- [xmonad-contrib](https://xmonad.org/) - Add-ons for xmonad
+- [xmonad-utils](https://hackage.haskell.org/package/xmonad-utils) - Small collection of X utilities
+- [xmonad-log](https://github.com/xintron/xmonad-log) - DBus monitor for xmonad log events
+- [haskell-dbus](https://john-millikin.com/software/haskell-dbus/) - A client library for the D-Bus IPC system
+- [xmobar](https://hackage.haskell.org/package/xmobar) - Minimalistic Text Based Status Bar
