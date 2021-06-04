@@ -63,9 +63,12 @@ def form_aur(README_DATA, dic):
     return README_DATA
 
 readmeData = ""
-readmeData += f"\n"
+readmeData += f"### Download\n\n```sh\n"
+readmeData += f"git clone git@github.com:joaopedroaats/packages.git ~/packages"
+readmeData += f"\n```\n\n"
 readmeData += f"| Name | Description | Repository |\n"
 readmeData += f"| :--- | :---------- | :--------- |\n"
+
 
 def main():
     # get_yay_info("qbittorrent")

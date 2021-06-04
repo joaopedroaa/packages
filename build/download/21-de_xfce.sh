@@ -50,8 +50,12 @@ echo "============================== xfce / Media / Video! (1) =================
 yay -S mplayer --noconfirm
 clear
 
-echo "============================== xfce / Media / Docs! (3) ====================="
-yay -S evince zathura zathura-pdf-poppler --noconfirm
+echo "============================== xfce / Media / Docs! (1) ====================="
+yay -S evince --noconfirm
+clear
+
+echo "============================== xfce / Media / Docs / Zathura! (4) ====================="
+yay -S zathura zathura-pdf-poppler zathura-djvu zathura-ps --noconfirm
 clear
 
 echo "============================== xfce / Audio / Alsa! (4) ====================="

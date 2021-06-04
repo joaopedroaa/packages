@@ -3,8 +3,8 @@ apps = {
     "apps/email!":          ["mailspring"],
     "apps/password!":       ["bitwarden-bin"],
     "apps/torrent!":        ["qbittorrent", "stremio"],
-    "apps/browsers!":       ["chromium", "tor-browser", "firefox-developer-edition"],
-    "apps/communication!":  ["discord_arch_electron", "zoom"],
+    "apps/browsers!":       ["chromium", "tor-browser", "firefox-nightly"],
+    "apps/communication!":  ["discord_arch_electron", "zoom", "whatsapp-nativefier"],
 
     "config/screen!":       ["redshift"],
     "config/bluetooth!":    ["bluez", "bluez-libs", "bluez-utils", "blueberry"],
@@ -18,23 +18,23 @@ apps = {
     "hardware/gpu!":        ["gwe"],
     "hardware/hd!":         ["gparted-git", "gsmartcontrol", "agedu", "ncdu"],
 
-    "driver/gpu":           ["nvidia-390xx",
+    "driver/open!":         ["xf86-video-nouveau", "mesa", "mesa-demos", "lib32-mesa"],
+    "driver/nvidia!":       ["nvidia-390xx",
                              "nvidia-390xx-utils",
                              "lib32-nvidia-390xx-utils",
-                             "nvidia-settings",
-                             "mesa-demos"],
+                             "nvidia-390xx-settings"],
 
-    "terminal!":            ["xclip", "xsel", "youtube-dl"],
+    "terminal!":            ["xclip", "xsel", "youtube-dl", "tldr"],
     "terminal/fun!":        ["cava", "cbonsai", "lolcat", "hollywood"],
     "terminal/wm!":         ["tmux"],
-    "terminal/filemanager!":["lf", "ranger"],
+    "terminal/filemanager!":["lf", "ranger", "w3m"],
     "terminal/zsh!":        ["zsh", "oh-my-zsh-git"],
     "terminal/zsh/config!": ["antigen-git", "spaceship-prompt-git"],
     "terminal/ui!":         ["lazygit-bin", "lazydocker-bin"],
     "terminal/ui/activity!":["gotop-bin", "htop"],
     "terminal/ui/sysinfo!": ["neofetch", "inxi"],
 
-    "spotify":              ["spotify-snap", "spotify-adblock"],
+    "spotify!":             ["spotify-snap", "zenity", "ffmpeg-compat-57"],
     "spotify/spicetify":    ["spicetify-cli", "spicetify-themes-git"],
 
     "fonts/nerd!":          ["nerd-fonts-complete"],
@@ -114,7 +114,8 @@ xfce = {
 
     "media/image!":         ["feh", "imagemagick", "flameshot-git", "gcolor2"],
     "media/video!":         ["mplayer"],
-    "media/docs!":          ["evince", "zathura", "zathura-pdf-poppler"],
+    "media/docs!":          ["evince"],
+    "media/docs/zathura!":  ["zathura", "zathura-pdf-poppler", "zathura-djvu", "zathura-ps"],
 
     "audio/alsa!":          ["alsa-firmware", "alsa-lib", "alsa-plugins", "alsa-utils"],
     "audio/icon":           ["volumeicon"],

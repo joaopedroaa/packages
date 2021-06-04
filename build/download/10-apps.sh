@@ -15,11 +15,11 @@ yay -S qbittorrent stremio --noconfirm
 clear
 
 echo "============================== Apps / Apps / Browsers! (3) ====================="
-yay -S chromium tor-browser firefox-developer-edition --noconfirm
+yay -S chromium tor-browser firefox-nightly --noconfirm
 clear
 
-echo "============================== Apps / Apps / Communication! (2) ====================="
-yay -S discord_arch_electron zoom --noconfirm
+echo "============================== Apps / Apps / Communication! (3) ====================="
+yay -S discord_arch_electron zoom whatsapp-nativefier --noconfirm
 clear
 
 echo "============================== Apps / Config / Screen! (1) ====================="
@@ -58,12 +58,16 @@ echo "============================== Apps / Hardware / Hd! (4) =================
 yay -S gparted-git gsmartcontrol agedu ncdu --noconfirm
 clear
 
-echo "============================== Apps / Driver / Gpu (5) ====================="
-yay -S nvidia-390xx nvidia-390xx-utils lib32-nvidia-390xx-utils nvidia-settings mesa-demos --noconfirm
+echo "============================== Apps / Driver / Open! (4) ====================="
+yay -S xf86-video-nouveau mesa mesa-demos lib32-mesa --noconfirm
 clear
 
-echo "============================== Apps / Terminal! (3) ====================="
-yay -S xclip xsel youtube-dl --noconfirm
+echo "============================== Apps / Driver / Nvidia! (4) ====================="
+yay -S nvidia-390xx nvidia-390xx-utils lib32-nvidia-390xx-utils nvidia-390xx-settings --noconfirm
+clear
+
+echo "============================== Apps / Terminal! (4) ====================="
+yay -S xclip xsel youtube-dl tldr --noconfirm
 clear
 
 echo "============================== Apps / Terminal / Fun! (4) ====================="
@@ -74,8 +78,8 @@ echo "============================== Apps / Terminal / Wm! (1) =================
 yay -S tmux --noconfirm
 clear
 
-echo "============================== Apps / Terminal / Filemanager! (2) ====================="
-yay -S lf ranger --noconfirm
+echo "============================== Apps / Terminal / Filemanager! (3) ====================="
+yay -S lf ranger w3m --noconfirm
 clear
 
 echo "============================== Apps / Terminal / Zsh! (2) ====================="
@@ -98,8 +102,8 @@ echo "============================== Apps / Terminal / Ui / Sysinfo! (2) =======
 yay -S neofetch inxi --noconfirm
 clear
 
-echo "============================== Apps / Spotify (2) ====================="
-yay -S spotify-snap spotify-adblock --noconfirm
+echo "============================== Apps / Spotify! (3) ====================="
+yay -S spotify-snap zenity ffmpeg-compat-57 --noconfirm
 clear
 
 echo "============================== Apps / Spotify / Spicetify (2) ====================="
