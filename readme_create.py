@@ -1,6 +1,7 @@
 import subprocess
 from apps import *
 
+
 def save_readme(info):
     with open(f"./README.md", 'w') as file:
         file.write(info)
@@ -11,6 +12,7 @@ def get_yay_info(appname):
     yay_output = str(subprocess.check_output(
         f"yay -Sii {appname}", shell=True))[2:]
 
+    print(f"Getting {appname}")
     splited = yay_output.split("\\n")
 
     for lines in splited:
@@ -38,7 +40,7 @@ def get_yay_info(appname):
 def form_aur(README_DATA, dic):
     readme_data_json = []
     for categories, apps in dic.items():
-        if (categories[-1] == "!"):
+        if (categories[-1] != "!"):
             for app in apps:
                 yayinfo = get_yay_info(app)
                 yayinfo["categoriesName"] = categories
@@ -49,7 +51,6 @@ def form_aur(README_DATA, dic):
         url = line['url']
         description = line['description']
         repository = line['repository']
-
 
         if (repository == "aur"):
             aur_link = f"https://aur.archlinux.org/packages/{name}"
@@ -62,24 +63,18 @@ def form_aur(README_DATA, dic):
     print("-- ok")
     return README_DATA
 
-readmeData = ""
-readmeData += f"### Download\n\n```sh\n"
-readmeData += f"git clone git@github.com:joaopedroaats/packages.git ~/packages"
-readmeData += f"\n```\n\n"
-readmeData += f"| Name | Description | Repository |\n"
-readmeData += f"| :--- | :---------- | :--------- |\n"
+
+readmeData = open(f"./READMET.md", 'r').read()
+readmeData += f"\n| Name | Description | Repository |"
+readmeData += f"\n| :--- | :---------- | :--------- |\n"
 
 
 def main():
-    # get_yay_info("qbittorrent")
-    # get_yay_info("paru")
-    # get_yay_info("mailspring")
-
-    # final_readme_data = form_aur(readmeData, apps)
-    final_readme_data = form_aur(form_aur(form_aur(form_aur(form_aur(
-        form_aur(readmeData, apps), development), plasma), xfce), i3), xmonad)
-
-    save_readme(final_readme_data)
-
+    save_readme(form_aur(form_aur(form_aur(
+        form_aur(readmeData, system), development), plasma), xfce))
 
 main()
+
+
+# save_readme(form_aur(readmeData, plasma))
+# get_yay_info("qbittorrent")

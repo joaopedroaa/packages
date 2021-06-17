@@ -14,7 +14,7 @@ curl -L git.io/antigen > ~/antigen.zsh
 
 
 separate_echo "asdf"
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.0
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
 
 
 separate_echo "Doom Emacs"
@@ -53,3 +53,15 @@ pip3 install --user neovim
 
 pip3 install --user google-api-python-client
 pip3 install --user httplib2
+
+# separate_echo "asdf"
+# asdf plugin add erlang
+# asdf plugin add elixir
+
+# asdf install erlang 24.0
+# asdf install elixir master
+
+# asdf global erlang  24.0
+# asdf global elixir  master
+
+# asdf current

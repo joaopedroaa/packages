@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 python install.py
-git add ~/packages/build/download/*
+git add ~/packages/build/*

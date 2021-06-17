@@ -28,25 +28,22 @@ def create_lines(DATA, index, dic):
 
 
 base = {
-    "10-apps":      ["", "Apps",      "yay -S"],
-    "11-apps_dev":  ["", "Apps Dev",  "yay -S"],
-    "20-de_plasma": ["", "Plasma",    "yay -S"],
-    "21-de_xfce":   ["", "xfce",      "yay -S"],
-    "30-wm_i3":     ["", "I3",        "yay -S"],
-    "31-wm_xmonad": ["", "Xmonad",    "yay -S"],
+    # filename           Name         Install Command
+    "10-system":    ["", "System",    "yay -S"],
+    "20-dev":       ["", "Dev",       "yay -S"],
+    "30-plasma":    ["", "Plasma",    "yay -S"],
+    "40-xfce":      ["", "xfce",      "yay -S"],
 }
 
 base_list = list(base)
 
 
 def main():
-    create_lines(base, 0, apps)
+    create_lines(base, 0, system)
     create_lines(base, 1, development)
     create_lines(base, 2, plasma)
     create_lines(base, 3, xfce)
-    create_lines(base, 4, i3)
-    create_lines(base, 5, xmonad)
-    save_files(base, "./build/download")
+    save_files(base, "./build")
 
 
 main()
