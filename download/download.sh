@@ -1,52 +1,52 @@
-source ~/dotfiles/.scripts/separate_echo.sh
+source ~/dotfiles/.scripts/system.sh
 
 
-separate_echo "ZSH / ohmyzsh"
+echo_separate "ZSH / ohmyzsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
-separate_echo "ZSH / zinit"
+echo_separate "ZSH / zinit"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 
 
-separate_echo "ZSH / Antigen"
+echo_separate "ZSH / Antigen"
 curl -L git.io/antigen > ~/antigen.zsh
 
 
-separate_echo "asdf"
+echo_separate "asdf"
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
 
 
-separate_echo "Doom Emacs"
+echo_separate "Doom Emacs"
 git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 
 
-separate_echo "Kitty theme install" # https://github.com/connorholyday/kitty-snazzy
+echo_separate "Kitty theme install" # https://github.com/connorholyday/kitty-snazzy
 curl -o ~/.config/kitty/ktheme.conf https://raw.githubusercontent.com/connorholyday/kitty-snazzy/master/snazzy.conf
 
 
-separate_echo "Cabal update"
+echo_separate "Cabal update"
 cabal update
 
 #-----------------------------------------------------------------------#
 
-separate_echo "Mix"
+echo_separate "Mix"
 mix archive.install hex phx_new
 
 
-separate_echo "Docker image"
+echo_separate "Docker image"
 sudo docker pull dpage/pgadmin4
 
 
-separate_echo "Yarn install"
+echo_separate "Yarn install"
 yarn global add gatsby-cli
 yarn global add bs-platform
 yarn global add typescript
 yarn global add neovim
 
 
-separate_echo "pip3"
+echo_separate "pip3"
 pip3 install --user flake8
 pip3 install --user yapf
 pip3 install --user neovim
@@ -54,7 +54,7 @@ pip3 install --user neovim
 pip3 install --user google-api-python-client
 pip3 install --user httplib2
 
-# separate_echo "asdf"
+# echo_separate "asdf"
 # asdf plugin add erlang
 # asdf plugin add elixir
 

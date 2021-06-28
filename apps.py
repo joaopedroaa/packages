@@ -4,6 +4,7 @@ system = {
     "screen":                   ["redshift"],
     "bluetooth":                ["bluez", "bluez-libs", "bluez-utils", "blueberry"],
     "security":                 ["gnome-keyring"],
+    "fontviewers":              ["font-manager"],
     "filesharing/ftp":          ["openssh"],
 
     # -----------------------------------------------------------------------------------#
@@ -41,10 +42,10 @@ system = {
     # -----------------------------------------------------------------------------------#
     #                               Audio
     # -----------------------------------------------------------------------------------#
-    "audio/alsa":               ["alsa-firmware", "alsa-lib", "alsa-plugins", "alsa-utils"],
-    "audio/icon":               ["volumeicon"],
     "audio/cli":                ["playerctl"],
+    "audio/icon":               ["volumeicon"],
     "audio/synthesis":          ["festival", "festival-us"],
+    "audio/alsa":               ["alsa-firmware", "alsa-lib", "alsa-plugins", "alsa-utils"],
     "audio/pulseaudio":         ["pulseaudio", "pulseaudio-alsa", "pulseeffects-legacy", "pavucontrol"],
 
 
@@ -52,7 +53,7 @@ system = {
     #                               Media
     # -----------------------------------------------------------------------------------#
     "media/image/viewers":      ["feh", "gwenview"],
-    "media/image/editors":      ["krita"],
+    "media/image/editors":      ["krita", "inkscape"],
     "media/image/wallsetter":   ["nitrogen", "imagemagick"],
     "media/image/screenshot":   ["flameshot-git", "gcolor2"],
 
@@ -74,8 +75,8 @@ system = {
     "terminal/shell/zsh":                  ["zsh", "oh-my-zsh-git"],
     "terminal/shell/zsh/config":           ["antigen-git", "spaceship-prompt-git"],
 
-    "terminal/commandline":                ["xclip", "xsel", "tldr", "hexyl"],
-    "terminal/commandline/images":         ["ueberzug", "pacgraph"],
+    "terminal/commandline":                ["xclip", "xsel", "tldr", "hexyl", "git-open-git"],
+    "terminal/commandline/images":         ["pacgraph"],
     "terminal/commandline/video":          ["youtube-dl"],
     "terminal/commandline/finder":         ["fd", "fzf", "the_silver_searcher"],
     "terminal/commandline/taskmanager":    ["gotop-bin", "htop"],
@@ -94,7 +95,8 @@ system = {
     "file/filesystem/mtp":                 ["mtpfs", "jmtpfs"],
     "file/filesystem/gvfs":                ["gvfs", "gvfs-mtp", "gvfs-gphoto2"],
 
-    "file/filemanager/console":                    ["lf", "ranger", "w3m"],
+    "file/filemanager/console":                    ["lf", "ranger", "nnn"],
+    "file/filemanager/console/image":              ["w3m", "ueberzug"],
     "file/filemanager/graphical":                  ["dolphin", "dolphin-plugins"],
     "file/filemanager/graphical/thunar":           ["thunar", "thunar-archive-plugin", "thunar-volman"],
     "file/filemanager/graphical/thunar/tumbler":   ["tumbler", "ffmpegthumbnailer"],
@@ -103,7 +105,7 @@ system = {
     # -----------------------------------------------------------------------------------#
     #                               Fonts
     # -----------------------------------------------------------------------------------#
-    "fonts/nerd!":          ["nerd-fonts-complete"],
+    "fonts/nerd":           ["nerd-fonts-complete"],
     "fonts/misc!":          ["awesome-terminal-fonts"],
     "fonts/ttf!":           ["ttf-fira-code",
                              "ttf-ibm-plex-mono-git",
@@ -192,6 +194,7 @@ xfce = {
     # -----------------------------------------------------------------------------------#
     #                               i3
     # -----------------------------------------------------------------------------------#
+    "wm":                  ["wmctrl"],
     "i3":                  ["i3-gaps", "autotiling-git", "perl-anyevent-i3"],
     "i3/lock":             ["i3lock"],
     "i3/bar":              ["i3blocks", "py3status", "polybar"],

@@ -34,6 +34,10 @@ echo "============================== xfce / Themes / Colors! (4) ===============
 yay -S ant-dracula-gtk-theme chicago95-gtk-theme-git gruvbox-material-gtk-theme-git yaru-gtk-theme --noconfirm
 clear
 
+echo "============================== xfce / Wm (1) ====================="
+yay -S wmctrl --noconfirm
+clear
+
 echo "============================== xfce / I3 (3) ====================="
 yay -S i3-gaps autotiling-git perl-anyevent-i3 --noconfirm
 clear

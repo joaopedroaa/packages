@@ -18,6 +18,10 @@ echo "============================== System / Security (1) =====================
 yay -S gnome-keyring --noconfirm
 clear
 
+echo "============================== System / Fontviewers (1) ====================="
+yay -S font-manager --noconfirm
+clear
+
 echo "============================== System / Filesharing / Ftp (1) ====================="
 yay -S openssh --noconfirm
 clear
@@ -78,20 +82,20 @@ echo "============================== System / Hardware / Hd (4) ================
 yay -S gparted-git gsmartcontrol agedu ncdu --noconfirm
 clear
 
-echo "============================== System / Audio / Alsa (4) ====================="
-yay -S alsa-firmware alsa-lib alsa-plugins alsa-utils --noconfirm
+echo "============================== System / Audio / Cli (1) ====================="
+yay -S playerctl --noconfirm
 clear
 
 echo "============================== System / Audio / Icon (1) ====================="
 yay -S volumeicon --noconfirm
 clear
 
-echo "============================== System / Audio / Cli (1) ====================="
-yay -S playerctl --noconfirm
-clear
-
 echo "============================== System / Audio / Synthesis (2) ====================="
 yay -S festival festival-us --noconfirm
+clear
+
+echo "============================== System / Audio / Alsa (4) ====================="
+yay -S alsa-firmware alsa-lib alsa-plugins alsa-utils --noconfirm
 clear
 
 echo "============================== System / Audio / Pulseaudio (4) ====================="
@@ -102,8 +106,8 @@ echo "============================== System / Media / Image / Viewers (2) ======
 yay -S feh gwenview --noconfirm
 clear
 
-echo "============================== System / Media / Image / Editors (1) ====================="
-yay -S krita --noconfirm
+echo "============================== System / Media / Image / Editors (2) ====================="
+yay -S krita inkscape --noconfirm
 clear
 
 echo "============================== System / Media / Image / Wallsetter (2) ====================="
@@ -142,12 +146,12 @@ echo "============================== System / Terminal / Shell / Zsh / Config (2
 yay -S antigen-git spaceship-prompt-git --noconfirm
 clear
 
-echo "============================== System / Terminal / Commandline (4) ====================="
-yay -S xclip xsel tldr hexyl --noconfirm
+echo "============================== System / Terminal / Commandline (5) ====================="
+yay -S xclip xsel tldr hexyl git-open-git --noconfirm
 clear
 
-echo "============================== System / Terminal / Commandline / Images (2) ====================="
-yay -S ueberzug pacgraph --noconfirm
+echo "============================== System / Terminal / Commandline / Images (1) ====================="
+yay -S pacgraph --noconfirm
 clear
 
 echo "============================== System / Terminal / Commandline / Video (1) ====================="
@@ -195,7 +199,11 @@ yay -S gvfs gvfs-mtp gvfs-gphoto2 --noconfirm
 clear
 
 echo "============================== System / File / Filemanager / Console (3) ====================="
-yay -S lf ranger w3m --noconfirm
+yay -S lf ranger nnn --noconfirm
+clear
+
+echo "============================== System / File / Filemanager / Console / Image (2) ====================="
+yay -S w3m ueberzug --noconfirm
 clear
 
 echo "============================== System / File / Filemanager / Graphical (2) ====================="
@@ -210,7 +218,7 @@ echo "============================== System / File / Filemanager / Graphical / T
 yay -S tumbler ffmpegthumbnailer --noconfirm
 clear
 
-echo "============================== System / Fonts / Nerd! (1) ====================="
+echo "============================== System / Fonts / Nerd (1) ====================="
 yay -S nerd-fonts-complete --noconfirm
 clear
 
