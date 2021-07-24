@@ -2,13 +2,17 @@ import subprocess
 from apps import *
 
 
-def save_readme(info):
-    with open(f"./README.md", 'w') as file:
+def save_file(filename, info):
+    with open(f"./{filename}", 'w') as file:
         file.write(info)
 
 
+def save_readme(info):
+    save_file("README.md", info)
+
+
 def get_yay_info(appname):
-    infos = {}
+    package_info = {}
     yay_output = str(subprocess.check_output(
         f"yay -Sii {appname}", shell=True))[2:]
 
@@ -20,35 +24,47 @@ def get_yay_info(appname):
         line[0] = line[0].strip()
 
         if(line[0] == "Repository"):
-            infos["repository"] = line[1]
+            package_info["repository"] = line[1]
 
         if(line[0] == "Name"):
-            infos["name"] = line[1]
+            package_info["name"] = line[1]
 
         if(line[0] == "Description"):
-            infos["description"] = line[1]
+            package_info["description"] = line[1]
 
         if(line[0] == "Architecture"):
-            infos["architecture"] = line[1]
+            package_info["architecture"] = line[1]
 
         if(line[0] == "URL"):
-            infos["url"] = line[1]
+            package_info["url"] = line[1]
 
-    return infos
+        if(line[0] == "Installed Size"):
+            package_info["installed"] = line[1]
+
+    return package_info
 
 
-def form_aur(README_DATA, dic):
-    readme_data_json = []
+def save_packages(README_DATA, dic):
+    packages_infos = []
+    total_size = 0
+
     for categories, apps in dic.items():
         if (categories[-1] != "!"):
             for app in apps:
                 yayinfo = get_yay_info(app)
-                yayinfo["categoriesName"] = categories
-                readme_data_json.append(yayinfo)
+                packages_infos.append(yayinfo)
+                # print(packages_infos)
+    return packages_infos
 
-    for line in readme_data_json:
+
+def form_aur(README_DATA, dic):
+    packages_infos = save_packages(README_DATA, dic)
+    total_size = 0
+
+    for line in packages_infos:
         name = line['name']
         url = line['url']
+
         description = line['description']
         repository = line['repository']
 
@@ -72,6 +88,7 @@ readmeData += f"\n| :--- | :---------- | :--------- |\n"
 def main():
     save_readme(form_aur(form_aur(form_aur(
         form_aur(readmeData, system), development), plasma), xfce))
+
 
 main()
 

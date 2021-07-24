@@ -29,6 +29,7 @@ enable_systemctl docker
 enable_systemctl httpd
 enable_systemctl mysqld
 enable_systemctl postgresql
+enable_systemctl logmein-hamachi
 
 
 echo_separate "Docker"

@@ -6,10 +6,10 @@
 git clone git@github.com:joaopedroaats/packages.git ~/packages
 ```
 
-
 | Name | Description | Repository |
 | :--- | :---------- | :--------- |
 | [ntp](http://www.ntp.org/) | Network Time Protocol reference implementation | [extra](https://archlinux.org/packages/extra/x86_64/ntp) |
+| [xkeycaps](https://www.jwz.org/xkeycaps/) | A graphical front-end to xmodmap | [community](https://archlinux.org/packages/community/x86_64/xkeycaps) |
 | [bleachbit](https://www.bleachbit.org/) | Deletes unneeded files to free disk space and maintain privacy | [community](https://archlinux.org/packages/community/any/bleachbit) |
 | [redshift](http://jonls.dk/redshift/) | Adjusts the color temperature of your screen according to your surroundings. | [community](https://archlinux.org/packages/community/x86_64/redshift) |
 | [bluez](http://www.bluez.org/) | Daemons for the bluetooth protocol stack | [extra](https://archlinux.org/packages/extra/x86_64/bluez) |
@@ -17,33 +17,35 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [bluez-utils](http://www.bluez.org/) | Development and debugging utilities for the bluetooth protocol stack | [extra](https://archlinux.org/packages/extra/x86_64/bluez-utils) |
 | [blueberry](https://github.com/linuxmint/blueberry) | Bluetooth configuration tool | [community](https://archlinux.org/packages/community/any/blueberry) |
 | [gnome-keyring](https://wiki.gnome.org/Projects/GnomeKeyring) | Stores passwords and encryption keys | [extra](https://archlinux.org/packages/extra/x86_64/gnome-keyring) |
+| [font-manager](https://fontmanager.github.io) | A simple font management application for GTK+ Desktop Environments | [aur](https://aur.archlinux.org/packages/font-manager) |
 | [openssh](https://www.openssh.com/portable.html) | Premier connectivity tool for remote login with the SSH protocol | [core](https://archlinux.org/packages/core/x86_64/openssh) |
 | [paru](https://github.com/morganamilo/paru) | Feature packed AUR helper | [aur](https://aur.archlinux.org/packages/paru) |
 | [mailspring](https://getmailspring.com/) | A beautiful, fast and maintained fork of Nylas Mail by one of the original authors. | [aur](https://aur.archlinux.org/packages/mailspring) |
 | [bitwarden-bin](https://bitwarden.com) | A secure and free password manager for all of your devices. | [aur](https://aur.archlinux.org/packages/bitwarden-bin) |
+| [logmein-hamachi](https://www.vpn.net/linux) | A zero-configuration VPN service | [aur](https://aur.archlinux.org/packages/logmein-hamachi) |
+| [haguichi](https://haguichi.net) | Provides a user friendly GUI to control the Hamachi client on Linux | [aur](https://aur.archlinux.org/packages/haguichi) |
 | [qbittorrent](https://www.qbittorrent.org) | An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar. | [community](https://archlinux.org/packages/community/x86_64/qbittorrent) |
 | [stremio](https://www.stremio.com/) | A one-stop hub for video content aggregation (Movies, TV shows, series, live television or web channels) | [aur](https://aur.archlinux.org/packages/stremio) |
 | [firefox-nightly](https://www.mozilla.org/en-US/firefox/nightly) | Standalone Web Browser from Mozilla \xe2\x80\x94 Nightly build (en-US) | [aur](https://aur.archlinux.org/packages/firefox-nightly) |
 | [chromium](https://www.chromium.org/Home) | A web browser built for speed, simplicity, and security | [extra](https://archlinux.org/packages/extra/x86_64/chromium) |
 | [tor-browser](https://www.torproject.org/projects/torbrowser.html) | Tor Browser Bundle: anonymous browsing using Firefox and Tor (international PKGBUILD) | [aur](https://aur.archlinux.org/packages/tor-browser) |
-| [discord_arch_electron](https://discordapp.com) | Discord (popular voice + video app) using the system provided electron for increased security and performance | [aur](https://aur.archlinux.org/packages/discord_arch_electron) |
 | [zoom](https://zoom.us/) | Video Conferencing and Web Conferencing Service | [aur](https://aur.archlinux.org/packages/zoom) |
 | [whatsapp-nativefier](https://web.whatsapp.com) | WhatsApp desktop built with nativefier (electron) | [aur](https://aur.archlinux.org/packages/whatsapp-nativefier) |
+| [discord_arch_electron](https://discordapp.com) | Discord (popular voice + video app) using the system provided electron for increased security and performance | [aur](https://aur.archlinux.org/packages/discord_arch_electron) |
+| [betterdiscordctl-git](https://github.com/bb010g/betterdiscordctl) | A utility for managing BetterDiscord on Linux | [aur](https://aur.archlinux.org/packages/betterdiscordctl-git) |
 | [spotify-snap](https://www.spotify.com) | A proprietary music streaming service | [aur](https://aur.archlinux.org/packages/spotify-snap) |
 | [zenity](https://gitlab.gnome.org/GNOME/zenity) | Display graphical dialog boxes from shell scripts | [extra](https://archlinux.org/packages/extra/x86_64/zenity) |
 | [ffmpeg-compat-57](http://ffmpeg.org/) | Compatibility package for ffmpeg to provide versions 57 of libavcodec, libavdevice and libavformat, not anymore provided by the ffmpeg package | [aur](https://aur.archlinux.org/packages/ffmpeg-compat-57) |
 | [spicetify-cli](https://github.com/khanhas/spicetify-cli) | Command-line tool to customize Spotify client | [aur](https://aur.archlinux.org/packages/spicetify-cli) |
 | [spicetify-themes-git](https://github.com/morpheusthewhite/spicetify-themes) | A community-driven collection of themes for spicetify | [aur](https://aur.archlinux.org/packages/spicetify-themes-git) |
-| [xf86-video-nouveau](https://nouveau.freedesktop.org/) | Open Source 3D acceleration driver for nVidia cards | [extra](https://archlinux.org/packages/extra/x86_64/xf86-video-nouveau) |
-| [mesa](https://www.mesa3d.org/) | An open-source implementation of the OpenGL specification | [extra](https://archlinux.org/packages/extra/x86_64/mesa) |
 | [mesa-demos](https://www.mesa3d.org/) | Mesa demos and tools incl. glxinfo + glxgears | [extra](https://archlinux.org/packages/extra/x86_64/mesa-demos) |
-| [lib32-mesa](https://www.mesa3d.org/) | An open-source implementation of the OpenGL specification (32-bit) | [multilib](https://archlinux.org/packages/multilib/x86_64/lib32-mesa) |
-| [nvidia-390xx](https://www.nvidia.com/) | NVIDIA drivers for linux, 390xx legacy branch | [aur](https://aur.archlinux.org/packages/nvidia-390xx) |
-| [nvidia-390xx-utils](https://www.nvidia.com/) | NVIDIA drivers utilities | [aur](https://aur.archlinux.org/packages/nvidia-390xx-utils) |
-| [lib32-nvidia-390xx-utils](http://www.nvidia.com/) | NVIDIA drivers utilities (32-bit), 390xx legacy branch | [aur](https://aur.archlinux.org/packages/lib32-nvidia-390xx-utils) |
-| [nvidia-390xx-settings](https://github.com/NVIDIA/nvidia-settings) | Tool for configuring the NVIDIA graphics driver, 390xx legacy branch | [aur](https://aur.archlinux.org/packages/nvidia-390xx-settings) |
+| [nvidia](https://www.nvidia.com/) | NVIDIA drivers for linux | [extra](https://archlinux.org/packages/extra/x86_64/nvidia) |
+| [nvidia-utils](http://www.nvidia.com/) | NVIDIA drivers utilities | [extra](https://archlinux.org/packages/extra/x86_64/nvidia-utils) |
+| [lib32-nvidia-utils](http://www.nvidia.com/) | NVIDIA drivers utilities (32-bit) | [multilib](https://archlinux.org/packages/multilib/x86_64/lib32-nvidia-utils) |
+| [nvidia-settings](https://github.com/NVIDIA/nvidia-settings) | Tool for configuring the NVIDIA graphics driver | [extra](https://archlinux.org/packages/extra/x86_64/nvidia-settings) |
 | [os-prober](https://joeyh.name/code/os-prober/) | Utility to detect other OSes on a set of drives | [community](https://archlinux.org/packages/community/x86_64/os-prober) |
 | [grub-customizer](https://launchpad.net/grub-customizer) | A graphical grub2 settings manager | [community](https://archlinux.org/packages/community/x86_64/grub-customizer) |
+| [etcher-bin](http://www.etcher.io/) | Flash OS images to SD cards & USB drives, safely and easily | [aur](https://aur.archlinux.org/packages/etcher-bin) |
 | [woeusb](https://github.com/WoeUSB/WoeUSB) | A Linux program to create Windows USB stick installer from a Windows DVD or an image | [aur](https://aur.archlinux.org/packages/woeusb) |
 | [cpu-x-git](http://X0rg.github.io/CPU-X/) | A Free software that gathers information on CPU, motherboard and more | [aur](https://aur.archlinux.org/packages/cpu-x-git) |
 | [s-tui](https://github.com/amanusk/s-tui) | Terminal UI stress test and monitoring tool | [community](https://archlinux.org/packages/community/any/s-tui) |
@@ -53,14 +55,13 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [gsmartcontrol](https://gsmartcontrol.sourceforge.io/home/) | A graphical user interface for the smartctl hard disk drive health inspection tool. | [community](https://archlinux.org/packages/community/x86_64/gsmartcontrol) |
 | [agedu](http://www.chiark.greenend.org.uk/~sgtatham/agedu/) | A UNIX utility for tracking down wasted disk space | [aur](https://aur.archlinux.org/packages/agedu) |
 | [ncdu](https://dev.yorhel.nl/ncdu) | Disk usage analyzer with an ncurses interface | [community](https://archlinux.org/packages/community/x86_64/ncdu) |
+| [playerctl](https://github.com/acrisci/playerctl) | mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others. | [community](https://archlinux.org/packages/community/x86_64/playerctl) |
+| [festival](http://festvox.org/festival/) | A general multi-lingual speech synthesis system | [extra](https://archlinux.org/packages/extra/x86_64/festival) |
+| [festival-us](http://festvox.org/festival/) | American Male/Female and Scottish English Male speaker | [community](https://archlinux.org/packages/community/any/festival-us) |
 | [alsa-firmware](https://alsa-project.org/) | Firmware binaries for loader programs in alsa-tools and hotplug firmware loader | [extra](https://archlinux.org/packages/extra/any/alsa-firmware) |
 | [alsa-lib](https://www.alsa-project.org) | An alternative implementation of Linux sound support | [extra](https://archlinux.org/packages/extra/x86_64/alsa-lib) |
 | [alsa-plugins](https://www.alsa-project.org) | Additional ALSA plugins | [extra](https://archlinux.org/packages/extra/x86_64/alsa-plugins) |
 | [alsa-utils](https://www.alsa-project.org) | Advanced Linux Sound Architecture - Utilities | [extra](https://archlinux.org/packages/extra/x86_64/alsa-utils) |
-| [volumeicon](https://softwarebakery.com/maato/volumeicon.html) | Volume control for the system tray | [community](https://archlinux.org/packages/community/x86_64/volumeicon) |
-| [playerctl](https://github.com/acrisci/playerctl) | mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others. | [community](https://archlinux.org/packages/community/x86_64/playerctl) |
-| [festival](http://festvox.org/festival/) | A general multi-lingual speech synthesis system | [extra](https://archlinux.org/packages/extra/x86_64/festival) |
-| [festival-us](http://festvox.org/festival/) | American Male/Female and Scottish English Male speaker | [community](https://archlinux.org/packages/community/any/festival-us) |
 | [pulseaudio](https://www.freedesktop.org/wiki/Software/PulseAudio/) | A featureful, general-purpose sound server | [extra](https://archlinux.org/packages/extra/x86_64/pulseaudio) |
 | [pulseaudio-alsa](https://www.alsa-project.org) | ALSA Configuration for PulseAudio | [extra](https://archlinux.org/packages/extra/x86_64/pulseaudio-alsa) |
 | [pulseeffects-legacy](https://github.com/wwmm/pulseeffects) | Audio Effects for Pulseaudio Applications, without pipewire | [aur](https://aur.archlinux.org/packages/pulseeffects-legacy) |
@@ -68,6 +69,7 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [feh](https://feh.finalrewind.org/) | Fast and light imlib2-based image viewer | [extra](https://archlinux.org/packages/extra/x86_64/feh) |
 | [gwenview](https://apps.kde.org/gwenview/) | A fast and easy to use image viewer | [extra](https://archlinux.org/packages/extra/x86_64/gwenview) |
 | [krita](https://krita.org) | Edit and paint images | [extra](https://archlinux.org/packages/extra/x86_64/krita) |
+| [inkscape](https://inkscape.org/) | Professional vector graphics editor | [extra](https://archlinux.org/packages/extra/x86_64/inkscape) |
 | [nitrogen](http://projects.l3ib.org/nitrogen/) | Background browser and setter for X windows | [extra](https://archlinux.org/packages/extra/x86_64/nitrogen) |
 | [imagemagick](https://www.imagemagick.org/) | An image viewing/manipulation program | [extra](https://archlinux.org/packages/extra/x86_64/imagemagick) |
 | [flameshot-git](https://github.com/flameshot-org/flameshot) | Powerful yet simple to use screenshot software | [aur](https://aur.archlinux.org/packages/flameshot-git) |
@@ -95,8 +97,11 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [xsel](http://www.vergenet.net/~conrad/software/xsel/) | XSel is a command-line program for getting and setting the contents of the X selection | [community](https://archlinux.org/packages/community/x86_64/xsel) |
 | [tldr](https://github.com/tldr-pages/tldr-python-client) | Command line client for tldr, a collection of simplified and community-driven man pages. | [community](https://archlinux.org/packages/community/any/tldr) |
 | [hexyl](https://github.com/sharkdp/hexyl) | Colored command-line hex viewer | [community](https://archlinux.org/packages/community/x86_64/hexyl) |
-| [ueberzug](https://github.com/seebye/ueberzug) | Command line util which allows to display images in combination with X11 | [community](https://archlinux.org/packages/community/x86_64/ueberzug) |
-| [youtube-dl](https://ytdl-org.github.io/youtube-dl/) | A command-line program to download videos from YouTube.com and a few more sites | [community](https://archlinux.org/packages/community/any/youtube-dl) |
+| [git-open-git](https://github.com/paulirish/git-open) | Open a repository GitHub page or website in your browser from the shell | [aur](https://aur.archlinux.org/packages/git-open-git) |
+| [calcurse](https://calcurse.org/) | A text-based personal organizer. | [community](https://archlinux.org/packages/community/x86_64/calcurse) |
+| [iftop](http://www.ex-parrot.com/~pdw/iftop/) | Display bandwidth usage on an interface | [community](https://archlinux.org/packages/community/x86_64/iftop) |
+| [bat](https://github.com/sharkdp/bat) | Cat clone with syntax highlighting and git integration | [community](https://archlinux.org/packages/community/x86_64/bat) |
+| [most](https://www.jedsoft.org/most/index.html) | A terminal pager similar to 'more' and 'less' | [extra](https://archlinux.org/packages/extra/x86_64/most) |
 | [fd](https://github.com/sharkdp/fd) | Simple, fast and user-friendly alternative to find | [community](https://archlinux.org/packages/community/x86_64/fd) |
 | [fzf](https://github.com/junegunn/fzf) | Command-line fuzzy finder | [community](https://archlinux.org/packages/community/x86_64/fzf) |
 | [the_silver_searcher](https://github.com/ggreer/the_silver_searcher) | Code searching tool similar to Ack, but faster | [community](https://archlinux.org/packages/community/x86_64/the_silver_searcher) |
@@ -110,6 +115,8 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [cbonsai](https://gitlab.com/jallbrit/cbonsai) | A bonsai tree generator, written in C using ncurses | [aur](https://aur.archlinux.org/packages/cbonsai) |
 | [lolcat](https://github.com/busyloop/lolcat) | Okay, no unicorns. But rainbows!! | [community](https://archlinux.org/packages/community/any/lolcat) |
 | [hollywood](https://github.com/dustinkirkland/hollywood) | Fill your console with Hollywood melodrama technobabble. | [aur](https://aur.archlinux.org/packages/hollywood) |
+| [pacgraph](http://kmkeen.com/pacgraph/) | Draws a graph of installed packages to PNG/SVG/GUI/console. Good for finding bloat. | [community](https://archlinux.org/packages/community/any/pacgraph) |
+| [youtube-dl](https://ytdl-org.github.io/youtube-dl/) | A command-line program to download videos from YouTube.com and a few more sites | [community](https://archlinux.org/packages/community/any/youtube-dl) |
 | [ark](https://apps.kde.org/ark/) | Archiving Tool | [extra](https://archlinux.org/packages/extra/x86_64/ark) |
 | [xarchiver](https://github.com/ib/xarchiver) | GTK+ frontend to various command line archivers | [community](https://archlinux.org/packages/community/x86_64/xarchiver) |
 | [rar](https://www.rarlab.com) | A command-line port of the rar compression utility | [aur](https://aur.archlinux.org/packages/rar) |
@@ -124,9 +131,11 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [gvfs](https://wiki.gnome.org/Projects/gvfs) | Virtual filesystem implementation for GIO | [extra](https://archlinux.org/packages/extra/x86_64/gvfs) |
 | [gvfs-mtp](https://wiki.gnome.org/Projects/gvfs) | Virtual filesystem implementation for GIO (MTP backend; Android, media player) | [extra](https://archlinux.org/packages/extra/x86_64/gvfs-mtp) |
 | [gvfs-gphoto2](https://wiki.gnome.org/Projects/gvfs) | Virtual filesystem implementation for GIO (gphoto2 backend; PTP camera, MTP media player) | [extra](https://archlinux.org/packages/extra/x86_64/gvfs-gphoto2) |
-| [lf](https://github.com/gokcehan/lf) | A terminal file manager inspred by ranger written in Go | [aur](https://aur.archlinux.org/packages/lf) |
 | [ranger](https://ranger.github.io) | Simple, vim-like file manager | [community](https://archlinux.org/packages/community/any/ranger) |
+| [nnn](https://github.com/jarun/nnn) | The fastest terminal file manager ever written. | [community](https://archlinux.org/packages/community/x86_64/nnn) |
+| [lf](https://github.com/gokcehan/lf) | A terminal file manager inspred by ranger written in Go | [aur](https://aur.archlinux.org/packages/lf) |
 | [w3m](https://salsa.debian.org/debian/w3m) | Text-based Web browser as well as pager | [extra](https://archlinux.org/packages/extra/x86_64/w3m) |
+| [ueberzug](https://github.com/seebye/ueberzug) | Command line util which allows to display images in combination with X11 | [community](https://archlinux.org/packages/community/x86_64/ueberzug) |
 | [dolphin](https://apps.kde.org/dolphin/) | KDE File Manager | [extra](https://archlinux.org/packages/extra/x86_64/dolphin) |
 | [dolphin-plugins](https://apps.kde.org/dolphin_plugins/) | Extra Dolphin plugins | [extra](https://archlinux.org/packages/extra/x86_64/dolphin-plugins) |
 | [thunar](https://docs.xfce.org/xfce/thunar/start) | Modern file manager for Xfce | [extra](https://archlinux.org/packages/extra/x86_64/thunar) |
@@ -134,9 +143,11 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [thunar-volman](https://docs.xfce.org/xfce/thunar/thunar-volman) | Automatic management of removeable devices in Thunar | [extra](https://archlinux.org/packages/extra/x86_64/thunar-volman) |
 | [tumbler](https://docs.xfce.org/xfce/tumbler/start) | D-Bus service for applications to request thumbnails | [extra](https://archlinux.org/packages/extra/x86_64/tumbler) |
 | [ffmpegthumbnailer](https://github.com/dirkvdb/ffmpegthumbnailer) | Lightweight video thumbnailer that can be used by file managers. | [extra](https://archlinux.org/packages/extra/x86_64/ffmpegthumbnailer) |
+| [nerd-fonts-complete](https://github.com/ryanoasis/nerd-fonts) | Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts. | [aur](https://aur.archlinux.org/packages/nerd-fonts-complete) |
 | [vsce](https://github.com/Microsoft/vscode-vsce) | Visual Studio Code extension manager | [aur](https://aur.archlinux.org/packages/vsce) |
 | [exercism](https://github.com/exercism/cli) | Command line client for https://exercism.io | [aur](https://aur.archlinux.org/packages/exercism) |
 | [wakatime](https://github.com/wakatime/wakatime) | Command line interface used by all WakaTime text editor plugins | [community](https://archlinux.org/packages/community/any/wakatime) |
+| [ngrok-bin](https://ngrok.com) | secure introspectable tunnels to localhost | [aur](https://aur.archlinux.org/packages/ngrok-bin) |
 | [insomnia-bin](https://insomnia.rest) | API Client and Design Platform for GraphQL and REST | [aur](https://aur.archlinux.org/packages/insomnia-bin) |
 | [postman-bin](https://www.getpostman.com) | Build, test, and document your APIs faster | [aur](https://aur.archlinux.org/packages/postman-bin) |
 | [docker](https://www.docker.com/) | Pack, ship and run any application as a lightweight container | [community](https://archlinux.org/packages/community/x86_64/docker) |
@@ -160,7 +171,7 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [jq](https://stedolan.github.io/jq/) | Command-line JSON processor | [community](https://archlinux.org/packages/community/x86_64/jq) |
 | [shellcheck](https://www.shellcheck.net) | Shell script analysis tool | [community](https://archlinux.org/packages/community/x86_64/shellcheck) |
 | [opam](https://opam.ocaml.org/) | OCaml package manager | [community](https://archlinux.org/packages/community/x86_64/opam) |
-| [python](https://www.python.org/) | Next generation of the python high-level scripting language | [extra](https://archlinux.org/packages/extra/x86_64/python) |
+| [python](https://www.python.org/) | Next generation of the python high-level scripting language | [core](https://archlinux.org/packages/core/x86_64/python) |
 | [autopep8](https://github.com/hhatto/autopep8) | A tool that automatically formats Python code to conform to the PEP 8 style guide | [community](https://archlinux.org/packages/community/any/autopep8) |
 | [elixir](https://elixir-lang.org) | a functional meta-programming aware language built on top of the Erlang VM | [community](https://archlinux.org/packages/community/any/elixir) |
 | [inotify-tools](https://github.com/rvoicilas/inotify-tools) | inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify. | [community](https://archlinux.org/packages/community/x86_64/inotify-tools) |
@@ -168,7 +179,7 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [cabal-install-bin](https://www.haskell.org/cabal) | The command-line interface for Cabal and Hackage. | [aur](https://aur.archlinux.org/packages/cabal-install-bin) |
 | [stack](https://github.com/commercialhaskell/stack) | The Haskell Tool Stack | [community](https://archlinux.org/packages/community/x86_64/stack) |
 | [racket](https://racket-lang.org/) | A full-spectrum language with DrRacket IDE. Formerly known as PLT Scheme. | [community](https://archlinux.org/packages/community/x86_64/racket) |
-| [pandoc-bin](http://pandoc.org) | Pandoc - executable only, without 750MB Haskell depends/makedepends | [aur](https://aur.archlinux.org/packages/pandoc-bin) |
+| [pandoc-bin](https://pandoc.org) | Pandoc - executable only, without 750MB Haskell depends/makedepends | [aur](https://aur.archlinux.org/packages/pandoc-bin) |
 | [postgresql](https://www.postgresql.org/) | Sophisticated object-relational DBMS | [extra](https://archlinux.org/packages/extra/x86_64/postgresql) |
 | [pgadmin4](https://www.pgadmin.org/) | Comprehensive design and management interface for PostgreSQL | [community](https://archlinux.org/packages/community/x86_64/pgadmin4) |
 | [superpaper](https://github.com/hhannine/Superpaper) | Cross-platform multi monitor wallpaper manager | [aur](https://aur.archlinux.org/packages/superpaper) |
@@ -186,6 +197,7 @@ git clone git@github.com:joaopedroaats/packages.git ~/packages
 | [lightdm-gtk-greeter](https://github.com/Xubuntu/lightdm-gtk-greeter) | GTK+ greeter for LightDM | [extra](https://archlinux.org/packages/extra/x86_64/lightdm-gtk-greeter) |
 | [lightdm-gtk-greeter-settings](https://launchpad.net/lightdm-gtk-greeter-settings) | Settings editor for the LightDM GTK+ Greeter | [community](https://archlinux.org/packages/community/any/lightdm-gtk-greeter-settings) |
 | [lightdm-webkit2-greeter](https://github.com/antergos/web-greeter) | LightDM greeter that uses WebKit2 for theming via HTML/JavaScript. | [community](https://archlinux.org/packages/community/x86_64/lightdm-webkit2-greeter) |
+| [wmctrl](http://tripie.sweb.cz/utils/wmctrl/) | Control your EWMH compliant window manager from command line | [community](https://archlinux.org/packages/community/x86_64/wmctrl) |
 | [i3-gaps](https://github.com/Airblader/i3) | A fork of i3wm tiling window manager with more features, including gaps | [community](https://archlinux.org/packages/community/x86_64/i3-gaps) |
 | [autotiling-git](https://github.com/nwg-piotr/autotiling) | Script for sway and i3 to automatically switch the horizontal / vertical window split orientation | [aur](https://aur.archlinux.org/packages/autotiling-git) |
 | [perl-anyevent-i3](https://search.cpan.org/~mstplbg/AnyEvent-I3/) | Communicate with the i3 window manager | [community](https://archlinux.org/packages/community/any/perl-anyevent-i3) |

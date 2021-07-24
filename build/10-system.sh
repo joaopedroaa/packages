@@ -2,6 +2,10 @@ echo "============================== System / Clock (1) ====================="
 yay -S ntp --noconfirm
 clear
 
+echo "============================== System / Keyboard  (1) ====================="
+yay -S xkeycaps --noconfirm
+clear
+
 echo "============================== System / Cleaning (1) ====================="
 yay -S bleachbit --noconfirm
 clear
@@ -38,6 +42,10 @@ echo "============================== System / Apps / Password (1) ==============
 yay -S bitwarden-bin --noconfirm
 clear
 
+echo "============================== System / Apps / Hamachi (2) ====================="
+yay -S logmein-hamachi haguichi --noconfirm
+clear
+
 echo "============================== System / Apps / Torrent (2) ====================="
 yay -S qbittorrent stremio --noconfirm
 clear
@@ -46,8 +54,12 @@ echo "============================== System / Apps / Browsers (3) ==============
 yay -S firefox-nightly chromium tor-browser --noconfirm
 clear
 
-echo "============================== System / Apps / Instantmessaging (3) ====================="
-yay -S discord_arch_electron zoom whatsapp-nativefier --noconfirm
+echo "============================== System / Apps / Messaging (2) ====================="
+yay -S zoom whatsapp-nativefier --noconfirm
+clear
+
+echo "============================== System / Apps / Messaging / Discord (2) ====================="
+yay -S discord_arch_electron betterdiscordctl-git --noconfirm
 clear
 
 echo "============================== System / Apps / Spotify (3) ====================="
@@ -58,16 +70,20 @@ echo "============================== System / Apps / Spotify / Spicetify (2) ===
 yay -S spicetify-cli spicetify-themes-git --noconfirm
 clear
 
-echo "============================== System / Driver / Open (4) ====================="
-yay -S xf86-video-nouveau mesa mesa-demos lib32-mesa --noconfirm
+echo "============================== System / Driver (1) ====================="
+yay -S mesa-demos --noconfirm
 clear
 
 echo "============================== System / Driver / Nvidia (4) ====================="
-yay -S nvidia-390xx nvidia-390xx-utils lib32-nvidia-390xx-utils nvidia-390xx-settings --noconfirm
+yay -S nvidia nvidia-utils lib32-nvidia-utils nvidia-settings --noconfirm
 clear
 
-echo "============================== System / Hardware / Boot (3) ====================="
-yay -S os-prober grub-customizer woeusb --noconfirm
+echo "============================== System / Hardware / Boot (2) ====================="
+yay -S os-prober grub-customizer --noconfirm
+clear
+
+echo "============================== System / Hardware / Boot / Create (2) ====================="
+yay -S etcher-bin woeusb --noconfirm
 clear
 
 echo "============================== System / Hardware / Cpu (3) ====================="
@@ -84,10 +100,6 @@ clear
 
 echo "============================== System / Audio / Cli (1) ====================="
 yay -S playerctl --noconfirm
-clear
-
-echo "============================== System / Audio / Icon (1) ====================="
-yay -S volumeicon --noconfirm
 clear
 
 echo "============================== System / Audio / Synthesis (2) ====================="
@@ -146,16 +158,12 @@ echo "============================== System / Terminal / Shell / Zsh / Config (2
 yay -S antigen-git spaceship-prompt-git --noconfirm
 clear
 
-echo "============================== System / Terminal / Commandline (5) ====================="
-yay -S xclip xsel tldr hexyl git-open-git --noconfirm
+echo "============================== System / Terminal / Commandline (7) ====================="
+yay -S xclip xsel tldr hexyl git-open-git calcurse iftop --noconfirm
 clear
 
-echo "============================== System / Terminal / Commandline / Images (1) ====================="
-yay -S pacgraph --noconfirm
-clear
-
-echo "============================== System / Terminal / Commandline / Video (1) ====================="
-yay -S youtube-dl --noconfirm
+echo "============================== System / Terminal / Commandline / Color (2) ====================="
+yay -S bat most --noconfirm
 clear
 
 echo "============================== System / Terminal / Commandline / Finder (3) ====================="
@@ -178,6 +186,14 @@ echo "============================== System / Terminal / Commandline / Fun (4) =
 yay -S cava cbonsai lolcat hollywood --noconfirm
 clear
 
+echo "============================== System / Terminal / Commandline / Images (1) ====================="
+yay -S pacgraph --noconfirm
+clear
+
+echo "============================== System / Terminal / Commandline / Video (1) ====================="
+yay -S youtube-dl --noconfirm
+clear
+
 echo "============================== System / File / Archivemanagers (2) ====================="
 yay -S ark xarchiver --noconfirm
 clear
@@ -186,35 +202,35 @@ echo "============================== System / File / Archivemanagers / Console (
 yay -S rar unrar zip unzip p7zip --noconfirm
 clear
 
-echo "============================== System / File / Filesystem (2) ====================="
+echo "============================== System / Filesystem (2) ====================="
 yay -S sshfs ntfs-3g --noconfirm
 clear
 
-echo "============================== System / File / Filesystem / Mtp (2) ====================="
+echo "============================== System / Filesystem / Mtp (2) ====================="
 yay -S mtpfs jmtpfs --noconfirm
 clear
 
-echo "============================== System / File / Filesystem / Gvfs (3) ====================="
+echo "============================== System / Filesystem / Gvfs (3) ====================="
 yay -S gvfs gvfs-mtp gvfs-gphoto2 --noconfirm
 clear
 
-echo "============================== System / File / Filemanager / Console (3) ====================="
-yay -S lf ranger nnn --noconfirm
+echo "============================== System / Filemanager / Console (3) ====================="
+yay -S ranger nnn lf --noconfirm
 clear
 
-echo "============================== System / File / Filemanager / Console / Image (2) ====================="
+echo "============================== System / Filemanager / Console / Image (2) ====================="
 yay -S w3m ueberzug --noconfirm
 clear
 
-echo "============================== System / File / Filemanager / Graphical (2) ====================="
+echo "============================== System / Filemanager / Graph / Dolphin (2) ====================="
 yay -S dolphin dolphin-plugins --noconfirm
 clear
 
-echo "============================== System / File / Filemanager / Graphical / Thunar (3) ====================="
+echo "============================== System / Filemanager / Graph / Thunar (3) ====================="
 yay -S thunar thunar-archive-plugin thunar-volman --noconfirm
 clear
 
-echo "============================== System / File / Filemanager / Graphical / Thunar / Tumbler (2) ====================="
+echo "============================== System / Filemanager / Graph / Thunar / Tumbler (2) ====================="
 yay -S tumbler ffmpegthumbnailer --noconfirm
 clear
 
