@@ -54,6 +54,14 @@ pip3 install --user neovim
 pip3 install --user google-api-python-client
 pip3 install --user httplib2
 
+
+echo_separate "Spotify"
+cd ~/.cache && git clone https://github.com/abba23/spotify-adblock.git && cd spotify-adblock
+sudo make && sudo make install
+
+
+
+
 # echo_separate "asdf"
 # asdf plugin add erlang
 # asdf plugin add elixir

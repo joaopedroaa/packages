@@ -6,8 +6,12 @@ echo "============================== Dev / Apps / Api (2) ====================="
 yay -S insomnia-bin postman-bin --noconfirm
 clear
 
-echo "============================== Dev / Apps / Vm (2) ====================="
-yay -S docker virtualbox-ext-oracle --noconfirm
+echo "============================== Dev / Apps / Vm (1) ====================="
+yay -S docker --noconfirm
+clear
+
+echo "============================== Dev / Apps / Virtualbox (2) ====================="
+yay -S virtualbox virtualbox-host-dkms --noconfirm
 clear
 
 echo "============================== Dev / Config / Android (3) ====================="

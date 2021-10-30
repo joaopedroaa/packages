@@ -1,4 +1,6 @@
 system = {
+    "system":                   ["tree"],
+    "color":                    ["python-pywal"],
     "clock":                    ["ntp"],
     "keyboard ":                ["xkeycaps"],
     "cleaning":                 ["bleachbit"],
@@ -13,7 +15,7 @@ system = {
     # -----------------------------------------------------------------------------------#
     "apps/arch":                ["paru"],
     "apps/email":               ["mailspring"],
-    "apps/password":            ["bitwarden-bin"],
+    "apps/password":            ["bitwarden"],
 
     "apps/hamachi":             ["logmein-hamachi", "haguichi"],
     "apps/torrent":             ["qbittorrent", "stremio"],
@@ -22,7 +24,7 @@ system = {
     "apps/messaging":           ["zoom", "whatsapp-nativefier"],
     "apps/messaging/discord":   ["discord_arch_electron", "betterdiscordctl-git"],
 
-    "apps/spotify":             ["spotify-snap", "zenity", "ffmpeg-compat-57"],
+    "apps/spotify":             ["spotify", "zenity", "ffmpeg-compat-57"],
     "apps/spotify/spicetify":   ["spicetify-cli", "spicetify-themes-git"],
 
     # -----------------------------------------------------------------------------------#
@@ -54,7 +56,8 @@ system = {
 
     "hardware/cpu":             ["cpu-x-git", "s-tui", "stress"],
     "hardware/gpu":             ["gwe"],
-    "hardware/hd":              ["gparted-git", "gsmartcontrol", "agedu", "ncdu"],
+    "hardware/hd":              ["gparted-git", "gsmartcontrol", "gnome-disk-utility"],
+    "hardware/hd/size":         ["ncdu", "dust", "agedu", "duf-bin"],
 
 
 
@@ -90,16 +93,21 @@ system = {
     "terminal/emulators":               ["alacritty-git", "kitty", "xcompmgr", "konsole", "yakuake"],
     "terminal/multiplexers":            ["tmux"],
 
-    "terminal/shell/zsh":               ["zsh", "oh-my-zsh-git"],
-    "terminal/shell/zsh/config":        ["antigen-git", "spaceship-prompt-git"],
+    "terminal/shell/zsh":               ["zsh"],
+    "terminal/shell/zsh/config":        ["antigen-git", "lscolors-git"],
 
-    "terminal/commandline":             ["xclip", "xsel", "tldr", "hexyl", "git-open-git", "calcurse", "iftop"],
+    "terminal/commandline":             ["xclip", "xsel", "iftop", "lsd"],
+    "terminal/commandline/net":         ["httpstat-go"],
     "terminal/commandline/color":       ["bat", "most"],
     "terminal/commandline/finder":      ["fd", "fzf", "the_silver_searcher"],
     "terminal/commandline/taskmanager": ["gotop-bin", "htop"],
-    "terminal/commandline/sysinfo":     ["neofetch", "inxi"],
-    "terminal/commandline/lazy":        ["lazygit-bin", "lazydocker-bin"],
+    "terminal/commandline/sysinfo":     ["neofetch", "inxi", "tldr"],
+    "terminal/commandline/lazy":        ["lazygit", "lazydocker"],
     "terminal/commandline/fun":         ["cava", "cbonsai", "lolcat", "hollywood"],
+
+    "terminal/commandline/git":         ["git-open-git", "git-delta"],
+    "terminal/commandline/time":        ["calcurse"],
+    "terminal/commandline/hexviewer":   ["hexyl"],
 
     "terminal/commandline/images":      ["pacgraph"],
     "terminal/commandline/video":       ["youtube-dl"],
@@ -148,7 +156,8 @@ system = {
 development = {
     "apps/cli":                 ["vsce", "exercism", "wakatime", "ngrok-bin"],
     "apps/api":                 ["insomnia-bin", "postman-bin"],
-    "apps/vm":                  ["docker", "virtualbox-ext-oracle"],
+    "apps/vm":                  ["docker"],
+    "apps/virtualbox":          ["virtualbox", "virtualbox-host-dkms"],
 
     "config/android":           ["android-sdk", "android-tools", "kdeconnect"],
     "config/archiso":           ["archiso-git", "qemu", "edk2-ovmf"],

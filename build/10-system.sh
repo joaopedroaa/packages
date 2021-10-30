@@ -1,3 +1,11 @@
+echo "============================== System / System (1) ====================="
+yay -S tree --noconfirm
+clear
+
+echo "============================== System / Color (1) ====================="
+yay -S python-pywal --noconfirm
+clear
+
 echo "============================== System / Clock (1) ====================="
 yay -S ntp --noconfirm
 clear
@@ -39,7 +47,7 @@ yay -S mailspring --noconfirm
 clear
 
 echo "============================== System / Apps / Password (1) ====================="
-yay -S bitwarden-bin --noconfirm
+yay -S bitwarden --noconfirm
 clear
 
 echo "============================== System / Apps / Hamachi (2) ====================="
@@ -63,7 +71,7 @@ yay -S discord_arch_electron betterdiscordctl-git --noconfirm
 clear
 
 echo "============================== System / Apps / Spotify (3) ====================="
-yay -S spotify-snap zenity ffmpeg-compat-57 --noconfirm
+yay -S spotify zenity ffmpeg-compat-57 --noconfirm
 clear
 
 echo "============================== System / Apps / Spotify / Spicetify (2) ====================="
@@ -94,8 +102,12 @@ echo "============================== System / Hardware / Gpu (1) ===============
 yay -S gwe --noconfirm
 clear
 
-echo "============================== System / Hardware / Hd (4) ====================="
-yay -S gparted-git gsmartcontrol agedu ncdu --noconfirm
+echo "============================== System / Hardware / Hd (3) ====================="
+yay -S gparted-git gsmartcontrol gnome-disk-utility --noconfirm
+clear
+
+echo "============================== System / Hardware / Hd / Size (4) ====================="
+yay -S ncdu dust agedu duf-bin --noconfirm
 clear
 
 echo "============================== System / Audio / Cli (1) ====================="
@@ -150,16 +162,20 @@ echo "============================== System / Terminal / Multiplexers (1) ======
 yay -S tmux --noconfirm
 clear
 
-echo "============================== System / Terminal / Shell / Zsh (2) ====================="
-yay -S zsh oh-my-zsh-git --noconfirm
+echo "============================== System / Terminal / Shell / Zsh (1) ====================="
+yay -S zsh --noconfirm
 clear
 
 echo "============================== System / Terminal / Shell / Zsh / Config (2) ====================="
-yay -S antigen-git spaceship-prompt-git --noconfirm
+yay -S antigen-git lscolors-git --noconfirm
 clear
 
-echo "============================== System / Terminal / Commandline (7) ====================="
-yay -S xclip xsel tldr hexyl git-open-git calcurse iftop --noconfirm
+echo "============================== System / Terminal / Commandline (4) ====================="
+yay -S xclip xsel iftop lsd --noconfirm
+clear
+
+echo "============================== System / Terminal / Commandline / Net (1) ====================="
+yay -S httpstat-go --noconfirm
 clear
 
 echo "============================== System / Terminal / Commandline / Color (2) ====================="
@@ -174,16 +190,28 @@ echo "============================== System / Terminal / Commandline / Taskmanag
 yay -S gotop-bin htop --noconfirm
 clear
 
-echo "============================== System / Terminal / Commandline / Sysinfo (2) ====================="
-yay -S neofetch inxi --noconfirm
+echo "============================== System / Terminal / Commandline / Sysinfo (3) ====================="
+yay -S neofetch inxi tldr --noconfirm
 clear
 
 echo "============================== System / Terminal / Commandline / Lazy (2) ====================="
-yay -S lazygit-bin lazydocker-bin --noconfirm
+yay -S lazygit lazydocker --noconfirm
 clear
 
 echo "============================== System / Terminal / Commandline / Fun (4) ====================="
 yay -S cava cbonsai lolcat hollywood --noconfirm
+clear
+
+echo "============================== System / Terminal / Commandline / Git (2) ====================="
+yay -S git-open-git git-delta --noconfirm
+clear
+
+echo "============================== System / Terminal / Commandline / Time (1) ====================="
+yay -S calcurse --noconfirm
+clear
+
+echo "============================== System / Terminal / Commandline / Hexviewer (1) ====================="
+yay -S hexyl --noconfirm
 clear
 
 echo "============================== System / Terminal / Commandline / Images (1) ====================="
