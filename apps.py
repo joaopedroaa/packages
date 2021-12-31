@@ -1,10 +1,12 @@
 system = {
-    "system":                   ["tree"],
+    "system":                   ["tree", "words", "stow"],
+    "book":                     ["calibre", "fbreader-qt5"],
     "color":                    ["python-pywal"],
+    "wine":                     ["wine", "winetricks"],
     "clock":                    ["ntp"],
     "keyboard ":                ["xkeycaps"],
     "cleaning":                 ["bleachbit"],
-    "screen":                   ["redshift"],
+    "screen":                   ["redshift", "caffeine-ng-git"],
     "bluetooth":                ["bluez", "bluez-libs", "bluez-utils", "blueberry"],
     "security":                 ["gnome-keyring"],
     "fontviewers":              ["font-manager"],
@@ -138,6 +140,8 @@ system = {
     # -----------------------------------------------------------------------------------#
     "fonts/nerd":               ["nerd-fonts-complete"],
     "fonts/misc!":              ["awesome-terminal-fonts"],
+    "fonts/ttc!":               ["ttc-iosevka".
+                                 "ttc-iosevka-ss15"],
     "fonts/ttf!":               ["ttf-fira-code",
                                  "ttf-ibm-plex-mono-git",
                                  "ttf-liberation",
