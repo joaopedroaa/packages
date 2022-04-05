@@ -2,7 +2,8 @@ system = {
     "system":                   ["tree", "words", "stow"],
     "book":                     ["calibre", "fbreader-qt5"],
     "color":                    ["python-pywal"],
-    "wine":                     ["wine", "winetricks"],
+    "wine":                     ["wine", "winetricks", "lutris"],
+    "game":                     ["tlauncher-org", "mcaselector"],
     "clock":                    ["ntp"],
     "keyboard ":                ["xkeycaps"],
     "cleaning":                 ["bleachbit"],
@@ -10,6 +11,7 @@ system = {
     "bluetooth":                ["bluez", "bluez-libs", "bluez-utils", "blueberry"],
     "security":                 ["gnome-keyring"],
     "fontviewers":              ["font-manager"],
+    "net":                      ["httpie"],
     "filesharing/ftp":          ["openssh"],
 
     # -----------------------------------------------------------------------------------#
@@ -19,11 +21,15 @@ system = {
     "apps/email":               ["mailspring"],
     "apps/password":            ["bitwarden"],
 
+    "apps/network":             ["ipscan"],
+    "apps/network/nmap":        ["nmap", "zenmap"],
+    "apps/vulnerability":       ["lynis"],
+
     "apps/hamachi":             ["logmein-hamachi", "haguichi"],
     "apps/torrent":             ["qbittorrent", "stremio"],
     "apps/browsers":            ["firefox-nightly", "chromium", "tor-browser"],
 
-    "apps/messaging":           ["zoom", "whatsapp-nativefier"],
+    "apps/messaging":           ["element-desktop", "zoom", "whatsapp-nativefier"],
     "apps/messaging/discord":   ["discord_arch_electron", "betterdiscordctl-git"],
 
     "apps/spotify":             ["spotify", "zenity", "ffmpeg-compat-57"],
@@ -50,7 +56,13 @@ system = {
                                  "nvidia-settings"],
 
 
-    # -----------------------------------------------------------------------------------#
+    "driver/nvidia-games":      ["dxvk-bin",
+                                 "nvidia-dkms",
+                                 "vulkan-icd-loader",
+                                 "lib32-vulkan-icd-loader"],
+
+
+   # -----------------------------------------------------------------------------------#
     #                               Hardware
     # -----------------------------------------------------------------------------------#
     "hardware/boot":            ["os-prober", "grub-customizer"],
@@ -59,7 +71,7 @@ system = {
     "hardware/cpu":             ["cpu-x-git", "s-tui", "stress"],
     "hardware/gpu":             ["gwe"],
     "hardware/hd":              ["gparted-git", "gsmartcontrol", "gnome-disk-utility"],
-    "hardware/hd/size":         ["ncdu", "dust", "agedu", "duf-bin"],
+    "hardware/hd/size":         ["ncdu", "dust", "agedu", "duf"],
 
 
 
@@ -78,9 +90,10 @@ system = {
     "media/image/viewers":      ["feh", "gwenview"],
     "media/image/editors":      ["krita", "inkscape"],
     "media/image/wallsetter":   ["nitrogen", "imagemagick"],
-    "media/image/screenshot":   ["flameshot-git", "gcolor2"],
+    "media/image/screenshot":   ["flameshot-git", "gcolor2", "scrot"],
 
     "media/video/players":      ["vlc", "mplayer", "obs-studio"],
+    "media/video/edit":         ["video-trimmer"],
 
     "media/documents":          ["evince", "okular"],
     "media/documents/zathura":  ["zathura",
@@ -102,7 +115,7 @@ system = {
     "terminal/commandline/net":         ["httpstat-go"],
     "terminal/commandline/color":       ["bat", "most"],
     "terminal/commandline/finder":      ["fd", "fzf", "the_silver_searcher"],
-    "terminal/commandline/taskmanager": ["gotop-bin", "htop"],
+    "terminal/commandline/taskmanager": ["gotop-bin", "htop", "tiptop-cli"],
     "terminal/commandline/sysinfo":     ["neofetch", "inxi", "tldr"],
     "terminal/commandline/lazy":        ["lazygit", "lazydocker"],
     "terminal/commandline/fun":         ["cava", "cbonsai", "lolcat", "hollywood"],
@@ -140,7 +153,7 @@ system = {
     # -----------------------------------------------------------------------------------#
     "fonts/nerd":               ["nerd-fonts-complete"],
     "fonts/misc!":              ["awesome-terminal-fonts"],
-    "fonts/ttc!":               ["ttc-iosevka".
+    "fonts/ttc!":               ["ttc-iosevka",
                                  "ttc-iosevka-ss15"],
     "fonts/ttf!":               ["ttf-fira-code",
                                  "ttf-ibm-plex-mono-git",
@@ -154,11 +167,12 @@ system = {
                                  "ttf-ms-fonts",
                                  "ttf-liberation",
                                  "ttf-font-icons"],
+    "fonts/emoji!":              ["noto-fonts-emoji"],
 
 }
 
 development = {
-    "apps/cli":                 ["vsce", "exercism", "wakatime", "ngrok-bin"],
+    "apps/cli":                 ["vsce", "exercism", "wakatime", "ngrok"],
     "apps/api":                 ["insomnia-bin", "postman-bin"],
     "apps/vm":                  ["docker"],
     "apps/virtualbox":          ["virtualbox", "virtualbox-host-dkms"],
@@ -231,7 +245,7 @@ xfce = {
     #                               i3
     # -----------------------------------------------------------------------------------#
     "wm":                       ["wmctrl"],
-    "i3":                       ["i3-gaps", "autotiling-git", "perl-anyevent-i3"],
+    "i3":                       ["i3-gaps", "autotiling", "perl-anyevent-i3"],
     "i3/lock":                  ["i3lock"],
     "i3/bar":                   ["i3blocks", "py3status", "polybar"],
 

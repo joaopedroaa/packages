@@ -1,5 +1,5 @@
 echo "============================== Dev / Apps / Cli (4) ====================="
-yay -S vsce exercism wakatime ngrok-bin --noconfirm
+yay -S vsce exercism wakatime ngrok --noconfirm
 clear
 
 echo "============================== Dev / Apps / Api (2) ====================="

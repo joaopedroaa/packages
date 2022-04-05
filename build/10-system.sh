@@ -1,9 +1,21 @@
-echo "============================== System / System (1) ====================="
-yay -S tree --noconfirm
+echo "============================== System / System (3) ====================="
+yay -S tree words stow --noconfirm
+clear
+
+echo "============================== System / Book (2) ====================="
+yay -S calibre fbreader-qt5 --noconfirm
 clear
 
 echo "============================== System / Color (1) ====================="
 yay -S python-pywal --noconfirm
+clear
+
+echo "============================== System / Wine (3) ====================="
+yay -S wine winetricks lutris --noconfirm
+clear
+
+echo "============================== System / Game (2) ====================="
+yay -S tlauncher-org mcaselector --noconfirm
 clear
 
 echo "============================== System / Clock (1) ====================="
@@ -18,8 +30,8 @@ echo "============================== System / Cleaning (1) =====================
 yay -S bleachbit --noconfirm
 clear
 
-echo "============================== System / Screen (1) ====================="
-yay -S redshift --noconfirm
+echo "============================== System / Screen (2) ====================="
+yay -S redshift caffeine-ng-git --noconfirm
 clear
 
 echo "============================== System / Bluetooth (4) ====================="
@@ -32,6 +44,10 @@ clear
 
 echo "============================== System / Fontviewers (1) ====================="
 yay -S font-manager --noconfirm
+clear
+
+echo "============================== System / Net (1) ====================="
+yay -S httpie --noconfirm
 clear
 
 echo "============================== System / Filesharing / Ftp (1) ====================="
@@ -50,6 +66,18 @@ echo "============================== System / Apps / Password (1) ==============
 yay -S bitwarden --noconfirm
 clear
 
+echo "============================== System / Apps / Network (1) ====================="
+yay -S ipscan --noconfirm
+clear
+
+echo "============================== System / Apps / Network / Nmap (2) ====================="
+yay -S nmap zenmap --noconfirm
+clear
+
+echo "============================== System / Apps / Vulnerability (1) ====================="
+yay -S lynis --noconfirm
+clear
+
 echo "============================== System / Apps / Hamachi (2) ====================="
 yay -S logmein-hamachi haguichi --noconfirm
 clear
@@ -62,8 +90,8 @@ echo "============================== System / Apps / Browsers (3) ==============
 yay -S firefox-nightly chromium tor-browser --noconfirm
 clear
 
-echo "============================== System / Apps / Messaging (2) ====================="
-yay -S zoom whatsapp-nativefier --noconfirm
+echo "============================== System / Apps / Messaging (3) ====================="
+yay -S element-desktop zoom whatsapp-nativefier --noconfirm
 clear
 
 echo "============================== System / Apps / Messaging / Discord (2) ====================="
@@ -84,6 +112,10 @@ clear
 
 echo "============================== System / Driver / Nvidia (4) ====================="
 yay -S nvidia nvidia-utils lib32-nvidia-utils nvidia-settings --noconfirm
+clear
+
+echo "============================== System / Driver / Nvidia-games (4) ====================="
+yay -S dxvk-bin nvidia-dkms vulkan-icd-loader lib32-vulkan-icd-loader --noconfirm
 clear
 
 echo "============================== System / Hardware / Boot (2) ====================="
@@ -107,7 +139,7 @@ yay -S gparted-git gsmartcontrol gnome-disk-utility --noconfirm
 clear
 
 echo "============================== System / Hardware / Hd / Size (4) ====================="
-yay -S ncdu dust agedu duf-bin --noconfirm
+yay -S ncdu dust agedu duf --noconfirm
 clear
 
 echo "============================== System / Audio / Cli (1) ====================="
@@ -138,12 +170,16 @@ echo "============================== System / Media / Image / Wallsetter (2) ===
 yay -S nitrogen imagemagick --noconfirm
 clear
 
-echo "============================== System / Media / Image / Screenshot (2) ====================="
-yay -S flameshot-git gcolor2 --noconfirm
+echo "============================== System / Media / Image / Screenshot (3) ====================="
+yay -S flameshot-git gcolor2 scrot --noconfirm
 clear
 
 echo "============================== System / Media / Video / Players (3) ====================="
 yay -S vlc mplayer obs-studio --noconfirm
+clear
+
+echo "============================== System / Media / Video / Edit (1) ====================="
+yay -S video-trimmer --noconfirm
 clear
 
 echo "============================== System / Media / Documents (2) ====================="
@@ -186,8 +222,8 @@ echo "============================== System / Terminal / Commandline / Finder (3
 yay -S fd fzf the_silver_searcher --noconfirm
 clear
 
-echo "============================== System / Terminal / Commandline / Taskmanager (2) ====================="
-yay -S gotop-bin htop --noconfirm
+echo "============================== System / Terminal / Commandline / Taskmanager (3) ====================="
+yay -S gotop-bin htop tiptop-cli --noconfirm
 clear
 
 echo "============================== System / Terminal / Commandline / Sysinfo (3) ====================="
@@ -270,7 +306,15 @@ echo "============================== System / Fonts / Misc! (1) ================
 yay -S awesome-terminal-fonts --noconfirm
 clear
 
+echo "============================== System / Fonts / Ttc! (2) ====================="
+yay -S ttc-iosevka ttc-iosevka-ss15 --noconfirm
+clear
+
 echo "============================== System / Fonts / Ttf! (12) ====================="
 yay -S ttf-fira-code ttf-ibm-plex-mono-git ttf-liberation ttf-roboto ttf-dejavu ttf-droid ttf-inconsolata ttf-liberation ttf-unifont ttf-ms-fonts ttf-liberation ttf-font-icons --noconfirm
+clear
+
+echo "============================== System / Fonts / Emoji! (1) ====================="
+yay -S noto-fonts-emoji --noconfirm
 clear
 

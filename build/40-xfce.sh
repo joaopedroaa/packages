@@ -39,7 +39,7 @@ yay -S wmctrl --noconfirm
 clear
 
 echo "============================== xfce / I3 (3) ====================="
-yay -S i3-gaps autotiling-git perl-anyevent-i3 --noconfirm
+yay -S i3-gaps autotiling perl-anyevent-i3 --noconfirm
 clear
 
 echo "============================== xfce / I3 / Lock (1) ====================="
