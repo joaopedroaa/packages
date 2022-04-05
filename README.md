@@ -1,4 +1,8 @@
-![pacgraph](./.github/pacgraph.png)
+<h1 align="center">Packages</h1>
+
+<p align="center">Organize installed packages</p>
+
+![pacgraph](./.github/pacgraph.svg)
 
 ### Download
 
