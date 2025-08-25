@@ -1,3 +1,12 @@
+#!/bin/bash
+
+echo "======================================================="
+echo "==       Iniciando a instalação de todos os pacotes      =="
+echo "======================================================="
+clear
+
+# --- Conteúdo de 10-system.sh ---
+
 echo "=============== System / System (3) ==============="
 yay -S tree words stow --noconfirm
 clear
@@ -329,3 +338,181 @@ clear
 echo "=============== System / Fonts / Emoji! (1) ==============="
 yay -S noto-fonts-emoji --noconfirm
 clear
+
+
+
+# --- Conteúdo de 20-dev.sh ---
+
+echo "=============== Dev / Apps / Cli (4) ==============="
+yay -S vsce exercism wakatime ngrok --noconfirm
+clear
+
+echo "=============== Dev / Apps / Api (2) ==============="
+yay -S insomnia-bin postman-bin --noconfirm
+clear
+
+echo "=============== Dev / Apps / Vm (1) ==============="
+yay -S docker --noconfirm
+clear
+
+echo "=============== Dev / Apps / Virtualbox (2) ==============="
+yay -S virtualbox virtualbox-host-dkms --noconfirm
+clear
+
+echo "=============== Dev / Config / Android (3) ==============="
+yay -S android-sdk android-tools kdeconnect --noconfirm
+clear
+
+echo "=============== Dev / Config / Archiso (3) ==============="
+yay -S archiso-git qemu edk2-ovmf --noconfirm
+clear
+
+echo "=============== Dev / Editors (3) ==============="
+yay -S visual-studio-code-insiders-bin intellij-idea-community-edition neovim --noconfirm
+clear
+
+echo "=============== Dev / Editors / Emacs (2) ==============="
+yay -S emacs ripgrep --noconfirm
+clear
+
+echo "=============== Dev / Lang / Js (2) ==============="
+yay -S nvm-git yarn --noconfirm
+clear
+
+echo "=============== Dev / Lang / Php! (5) ==============="
+yay -S apache mysql php php-apache phpmyadmin --noconfirm
+clear
+
+echo "=============== Dev / Lang / Java (3) ==============="
+yay -S jdk glassfish5 processing --noconfirm
+clear
+
+echo "=============== Dev / Lang / Json (1) ==============="
+yay -S jq --noconfirm
+clear
+
+echo "=============== Dev / Lang / Shell (1) ==============="
+yay -S shellcheck --noconfirm
+clear
+
+echo "=============== Dev / Lang / Ocaml (1) ==============="
+yay -S opam --noconfirm
+clear
+
+echo "=============== Dev / Lang / Python (2) ==============="
+yay -S python autopep8 --noconfirm
+clear
+
+echo "=============== Dev / Lang / Elixir (2) ==============="
+yay -S elixir inotify-tools --noconfirm
+clear
+
+echo "=============== Dev / Lang / Haskell (3) ==============="
+yay -S ghc cabal-install-bin stack --noconfirm
+clear
+
+echo "=============== Dev / Lang / Lisp (1) ==============="
+yay -S racket --noconfirm
+clear
+
+echo "=============== Dev / Lang / Mark (1) ==============="
+yay -S pandoc-bin --noconfirm
+clear
+
+echo "=============== Dev / Db / Postgres (2) ==============="
+yay -S postgresql pgadmin4 --noconfirm
+clear
+
+
+
+# --- Conteúdo de 30-plasma.sh ---
+
+echo "=============== Plasma / Desktop (1) ==============="
+yay -S superpaper --noconfirm
+clear
+
+echo "=============== Plasma / Desktop / Kvantum (1) ==============="
+yay -S kvantum-qt5-git --noconfirm
+clear
+
+echo "=============== Plasma / Desktop / Kvantum / Theme (1) ==============="
+yay -S kvantum-theme-layan-git --noconfirm
+clear
+
+echo "=============== Plasma / Desktop / Taskbars (1) ==============="
+yay -S plank --noconfirm
+clear
+
+
+
+# --- Conteúdo de 40-xfce.sh ---
+
+echo "=============== XFCE / Xfce (1) ==============="
+yay -S xfce4-settings --noconfirm
+clear
+
+echo "=============== XFCE / Compositor (1) ==============="
+yay -S picom --noconfirm
+clear
+
+echo "=============== XFCE / Applauncher (3) ==============="
+yay -S dmenu rofi rofi-calc --noconfirm
+clear
+
+echo "=============== XFCE / Desktop (2) ==============="
+yay -S lxappearance dunst-git --noconfirm
+clear
+
+echo "=============== XFCE / Dm / Xorg! (2) ==============="
+yay -S xorg xorg-xinit-git --noconfirm
+clear
+
+echo "=============== XFCE / Dm / Lightdm (4) ==============="
+yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lightdm-webkit2-greeter --noconfirm
+clear
+
+echo "=============== XFCE / Themes / Icons! (2) ==============="
+yay -S tela-icon-theme-git flatery-icon-theme-git --noconfirm
+clear
+
+echo "=============== XFCE / Themes / Cursors! (1) ==============="
+yay -S capitaine-cursors --noconfirm
+clear
+
+echo "=============== XFCE / Themes / Colors! (4) ==============="
+yay -S chicago95-gtk-theme-git gruvbox-material-gtk-theme-git yaru-gtk-theme materia-gtk-theme --noconfirm
+clear
+
+echo "=============== XFCE / Wm (1) ==============="
+yay -S wmctrl --noconfirm
+clear
+
+echo "=============== XFCE / I3 (3) ==============="
+yay -S i3-gaps autotiling perl-anyevent-i3 --noconfirm
+clear
+
+echo "=============== XFCE / I3 / Lock (1) ==============="
+yay -S i3lock --noconfirm
+clear
+
+echo "=============== XFCE / I3 / Bar (3) ==============="
+yay -S i3blocks py3status polybar --noconfirm
+clear
+
+echo "=============== XFCE / Xmonad (4) ==============="
+yay -S xmonad xmonad-contrib xmonad-utils xmonad-log --noconfirm
+clear
+
+echo "=============== XFCE / Xmonad / Haskell (1) ==============="
+yay -S haskell-dbus --noconfirm
+clear
+
+echo "=============== XFCE / Xmonad / Bar (1) ==============="
+yay -S xmobar --noconfirm
+clear
+
+
+
+echo "======================================================="
+echo "==          Instalação de todos os pacotes concluída!          =="
+======================================================="
