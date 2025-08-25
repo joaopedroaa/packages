@@ -22,8 +22,8 @@ sudo chmod 775 /var/lib/postgres
 sudo chown postgres /var/lib/postgres
 
 
-echo_separate "Reflector"
-reflector
+# echo_separate "Reflector"
+# reflector
 
 
 # ----------------------------------------------------------------------------------------- #

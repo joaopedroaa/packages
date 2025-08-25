@@ -31,7 +31,7 @@ yay -S capitaine-cursors --noconfirm
 clear
 
 echo "============================== xfce / Themes / Colors! (4) ====================="
-yay -S ant-dracula-gtk-theme chicago95-gtk-theme-git gruvbox-material-gtk-theme-git yaru-gtk-theme --noconfirm
+yay -S chicago95-gtk-theme-git gruvbox-material-gtk-theme-git yaru-gtk-theme materia-gtk-theme --noconfirm
 clear
 
 echo "============================== xfce / Wm (1) ====================="

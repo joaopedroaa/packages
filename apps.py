@@ -7,6 +7,7 @@ system = {
     "clock":                    ["ntp"],
     "keyboard ":                ["xkeycaps"],
     "cleaning":                 ["bleachbit"],
+    "socialnetwork":            ["sherlock-git"],
     "screen":                   ["redshift", "caffeine-ng-git"],
     "bluetooth":                ["bluez", "bluez-libs", "bluez-utils", "blueberry"],
     "security":                 ["gnome-keyring"],
@@ -27,7 +28,7 @@ system = {
 
     "apps/hamachi":             ["logmein-hamachi", "haguichi"],
     "apps/torrent":             ["qbittorrent", "stremio"],
-    "apps/browsers":            ["firefox-nightly", "chromium", "tor-browser"],
+    "apps/browsers":            ["firefox", "chromium", "i2p-bin"],
 
     "apps/messaging":           ["element-desktop", "zoom", "whatsapp-nativefier"],
     "apps/messaging/discord":   ["discord_arch_electron", "betterdiscordctl-git"],
@@ -116,7 +117,7 @@ system = {
     "terminal/commandline/color":       ["bat", "most"],
     "terminal/commandline/finder":      ["fd", "fzf", "the_silver_searcher"],
     "terminal/commandline/taskmanager": ["gotop-bin", "htop", "tiptop-cli"],
-    "terminal/commandline/sysinfo":     ["neofetch", "inxi", "tldr"],
+    "terminal/commandline/sysinfo":     ["neofetch", "inxi", "tldr", "macchina-bin"],
     "terminal/commandline/lazy":        ["lazygit", "lazydocker"],
     "terminal/commandline/fun":         ["cava", "cbonsai", "lolcat", "hollywood"],
 
@@ -143,6 +144,7 @@ system = {
     "filemanager/console":              ["ranger", "nnn", "lf"],
     "filemanager/console/image":        ["w3m", "ueberzug"],
 
+    "filemanager/graph":                ["pcmanfm"],
     "filemanager/graph/dolphin":        ["dolphin", "dolphin-plugins"],
     "filemanager/graph/thunar":         ["thunar", "thunar-archive-plugin", "thunar-volman"],
     "filemanager/graph/thunar/tumbler": ["tumbler", "ffmpegthumbnailer"],
@@ -151,6 +153,7 @@ system = {
     # -----------------------------------------------------------------------------------#
     #                               Fonts
     # -----------------------------------------------------------------------------------#
+    "fonts/editor":             ["gucharmap"],
     "fonts/nerd":               ["nerd-fonts-complete"],
     "fonts/misc!":              ["awesome-terminal-fonts"],
     "fonts/ttc!":               ["ttc-iosevka",
@@ -235,10 +238,10 @@ xfce = {
     # -----------------------------------------------------------------------------------#
     "themes/icons!":            ["tela-icon-theme-git", "flatery-icon-theme-git"],
     "themes/cursors!":          ["capitaine-cursors"],
-    "themes/colors!":           ["ant-dracula-gtk-theme",
-                                 "chicago95-gtk-theme-git",
+    "themes/colors!":           ["chicago95-gtk-theme-git",
                                  "gruvbox-material-gtk-theme-git",
-                                 "yaru-gtk-theme"],
+                                 "yaru-gtk-theme",
+                                 "materia-gtk-theme"],
 
 
     # -----------------------------------------------------------------------------------#

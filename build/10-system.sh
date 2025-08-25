@@ -30,6 +30,10 @@ echo "============================== System / Cleaning (1) =====================
 yay -S bleachbit --noconfirm
 clear
 
+echo "============================== System / Socialnetwork (1) ====================="
+yay -S sherlock-git --noconfirm
+clear
+
 echo "============================== System / Screen (2) ====================="
 yay -S redshift caffeine-ng-git --noconfirm
 clear
@@ -86,8 +90,8 @@ echo "============================== System / Apps / Torrent (2) ===============
 yay -S qbittorrent stremio --noconfirm
 clear
 
-echo "============================== System / Apps / Browsers (3) ====================="
-yay -S firefox-nightly chromium tor-browser --noconfirm
+echo "============================== System / Apps / Browsers (4) ====================="
+yay -S firefox chromium i2p-bin freenet --noconfirm
 clear
 
 echo "============================== System / Apps / Messaging (3) ====================="
@@ -226,8 +230,8 @@ echo "============================== System / Terminal / Commandline / Taskmanag
 yay -S gotop-bin htop tiptop-cli --noconfirm
 clear
 
-echo "============================== System / Terminal / Commandline / Sysinfo (3) ====================="
-yay -S neofetch inxi tldr --noconfirm
+echo "============================== System / Terminal / Commandline / Sysinfo (4) ====================="
+yay -S neofetch inxi tldr macchina-bin --noconfirm
 clear
 
 echo "============================== System / Terminal / Commandline / Lazy (2) ====================="
@@ -284,6 +288,10 @@ clear
 
 echo "============================== System / Filemanager / Console / Image (2) ====================="
 yay -S w3m ueberzug --noconfirm
+clear
+
+echo "============================== System / Filemanager / Graph (1) ====================="
+yay -S pcmanfm --noconfirm
 clear
 
 echo "============================== System / Filemanager / Graph / Dolphin (2) ====================="
