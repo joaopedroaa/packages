@@ -159,6 +159,8 @@ system = {
     "fonts/ttc!":               ["ttc-iosevka",
                                  "ttc-iosevka-ss15"],
     "fonts/ttf!":               ["ttf-fira-code",
+                                 "ttf-material-design-icons-extended",
+                                 "ttf-material-design-icons-git",
                                  "ttf-ibm-plex-mono-git",
                                  "ttf-liberation",
                                  "ttf-roboto",
@@ -208,6 +210,7 @@ development = {
     "db/postgres":              ["postgresql", "pgadmin4"]
 
 }
+
 
 
 plasma = {

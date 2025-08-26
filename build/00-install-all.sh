@@ -331,8 +331,8 @@ echo "=============== System / Fonts / Ttc! (2) ==============="
 yay -S ttc-iosevka ttc-iosevka-ss15 --noconfirm
 clear
 
-echo "=============== System / Fonts / Ttf! (12) ==============="
-yay -S ttf-fira-code ttf-ibm-plex-mono-git ttf-liberation ttf-roboto ttf-dejavu ttf-droid ttf-inconsolata ttf-liberation ttf-unifont ttf-ms-fonts ttf-liberation ttf-font-icons --noconfirm
+echo "=============== System / Fonts / Ttf! (14) ==============="
+yay -S ttf-fira-code ttf-material-design-icons-extended ttf-material-design-icons-git ttf-ibm-plex-mono-git ttf-liberation ttf-roboto ttf-dejavu ttf-droid ttf-inconsolata ttf-liberation ttf-unifont ttf-ms-fonts ttf-liberation ttf-font-icons --noconfirm
 clear
 
 echo "=============== System / Fonts / Emoji! (1) ==============="
