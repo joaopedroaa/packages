@@ -109,7 +109,7 @@ system = {
     "terminal/emulators":               ["alacritty-git", "kitty", "xcompmgr", "konsole", "yakuake"],
     "terminal/multiplexers":            ["tmux"],
 
-    "terminal/shell/zsh":               ["zsh"],
+    "terminal/shell/zsh":               ["zsh", "zinit"],
     "terminal/shell/zsh/config":        ["antigen-git", "lscolors-git"],
 
     "terminal/commandline":             ["xclip", "xsel", "iftop", "lsd"],
