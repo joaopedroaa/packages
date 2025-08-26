@@ -1,4 +1,4 @@
-source ~/dotfiles/.scripts/system.sh
+
 
 systemctl_enable () {
   clear
@@ -8,16 +8,7 @@ systemctl_enable () {
   sudo systemctl status $1
 }
 
-gpt_import (){
-  gpg --keyserver pool.sks-keyservers.net --recv-keys $1
-}
-
 # ----------------------------------------------------------------------------------------- #
-
-echo_separate "GPT keys"
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | gpg --import -
-gpt_import EF6E286DDA85EA2A4BA7DE684E2C6E8793298290 # Tor
-gpt_import 14F26682D0916CDD81E37B6D61B7B526D98F0353 # Firefox
 
 
 echo_separate "Systemctl"
@@ -39,4 +30,4 @@ timedatectl set-timezone America/Sao_Paulo
 
 
 # enable DXVK in a wineprefix
-setup_dxvk install
+# setup_dxvk install

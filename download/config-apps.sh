@@ -1,4 +1,4 @@
-source ~/dotfiles/.scripts/system.sh
+
 
 
 echo_separate "Docker"
