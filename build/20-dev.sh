@@ -14,16 +14,12 @@ echo "=============== Dev / Apps / Virtualbox (2) ==============="
 yay -S virtualbox virtualbox-host-dkms --noconfirm
 clear
 
-echo "=============== Dev / Config / Android (3) ==============="
-yay -S android-sdk android-tools kdeconnect --noconfirm
-clear
-
 echo "=============== Dev / Config / Archiso (3) ==============="
 yay -S archiso-git qemu edk2-ovmf --noconfirm
 clear
 
 echo "=============== Dev / Editors (3) ==============="
-yay -S visual-studio-code-insiders-bin intellij-idea-community-edition neovim --noconfirm
+yay -S visual-studio-code-insiders-bin visual-studio-code-bin neovim --noconfirm
 clear
 
 echo "=============== Dev / Editors / Emacs (2) ==============="
@@ -32,14 +28,6 @@ clear
 
 echo "=============== Dev / Lang / Js (2) ==============="
 yay -S nvm-git yarn --noconfirm
-clear
-
-echo "=============== Dev / Lang / Php! (5) ==============="
-yay -S apache mysql php php-apache phpmyadmin --noconfirm
-clear
-
-echo "=============== Dev / Lang / Java (3) ==============="
-yay -S jdk glassfish5 processing --noconfirm
 clear
 
 echo "=============== Dev / Lang / Json (1) ==============="
@@ -63,7 +51,7 @@ yay -S elixir inotify-tools --noconfirm
 clear
 
 echo "=============== Dev / Lang / Haskell (3) ==============="
-yay -S ghc cabal-install-bin stack --noconfirm
+yay -S ghc cabal-install stack --noconfirm
 clear
 
 echo "=============== Dev / Lang / Lisp (1) ==============="
@@ -75,5 +63,5 @@ yay -S pandoc-bin --noconfirm
 clear
 
 echo "=============== Dev / Db / Postgres (2) ==============="
-yay -S postgresql pgadmin4 --noconfirm
+yay -S postgresql pgadmin4-desktop --noconfirm
 clear

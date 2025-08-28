@@ -12,7 +12,7 @@ yay -S tree words stow --noconfirm
 clear
 
 echo "=============== System / Book (2) ==============="
-yay -S calibre fbreader-qt5 --noconfirm
+yay -S calibre fbreader --noconfirm
 clear
 
 echo "=============== System / Color (1) ==============="
@@ -23,8 +23,8 @@ echo "=============== System / Wine (3) ==============="
 yay -S wine winetricks lutris --noconfirm
 clear
 
-echo "=============== System / Game (2) ==============="
-yay -S tlauncher-org mcaselector --noconfirm
+echo "=============== System / Game (1) ==============="
+yay -S mcaselector --noconfirm
 clear
 
 echo "=============== System / Clock (1) ==============="
@@ -103,8 +103,8 @@ echo "=============== System / Apps / Browsers (3) ==============="
 yay -S firefox chromium i2p-bin --noconfirm
 clear
 
-echo "=============== System / Apps / Messaging (3) ==============="
-yay -S element-desktop zoom whatsapp-nativefier --noconfirm
+echo "=============== System / Apps / Messaging (1) ==============="
+yay -S element-desktop --noconfirm
 clear
 
 echo "=============== System / Apps / Messaging / Discord (2) ==============="
@@ -211,8 +211,8 @@ echo "=============== System / Terminal / Multiplexers (1) ==============="
 yay -S tmux --noconfirm
 clear
 
-echo "=============== System / Terminal / Shell / Zsh (1) ==============="
-yay -S zsh --noconfirm
+echo "=============== System / Terminal / Shell / Zsh (2) ==============="
+yay -S zsh zinit --noconfirm
 clear
 
 echo "=============== System / Terminal / Shell / Zsh / Config (2) ==============="
@@ -240,7 +240,7 @@ yay -S gotop-bin htop tiptop-cli --noconfirm
 clear
 
 echo "=============== System / Terminal / Commandline / Sysinfo (4) ==============="
-yay -S neofetch inxi tldr macchina-bin --noconfirm
+yay -S neofetch inxi tldr macchina --noconfirm
 clear
 
 echo "=============== System / Terminal / Commandline / Lazy (2) ==============="
@@ -319,10 +319,6 @@ echo "=============== System / Fonts / Editor (1) ==============="
 yay -S gucharmap --noconfirm
 clear
 
-echo "=============== System / Fonts / Nerd (1) ==============="
-yay -S nerd-fonts-complete --noconfirm
-clear
-
 echo "=============== System / Fonts / Misc! (1) ==============="
 yay -S awesome-terminal-fonts --noconfirm
 clear
@@ -332,7 +328,7 @@ yay -S ttc-iosevka ttc-iosevka-ss15 --noconfirm
 clear
 
 echo "=============== System / Fonts / Ttf! (14) ==============="
-yay -S ttf-fira-code ttf-material-design-icons-extended ttf-material-design-icons-git ttf-ibm-plex-mono-git ttf-liberation ttf-roboto ttf-dejavu ttf-droid ttf-inconsolata ttf-liberation ttf-unifont ttf-ms-fonts ttf-liberation ttf-font-icons --noconfirm
+yay -S ttf-fira-code ttf-material-design-icons-extended ttf-material-design-icons-git ttf-ibm-plex ttf-liberation ttf-roboto ttf-dejavu ttf-droid ttf-inconsolata ttf-liberation ttf-unifont ttf-ms-fonts ttf-liberation ttf-font-icons --noconfirm
 clear
 
 echo "=============== System / Fonts / Emoji! (1) ==============="
@@ -359,16 +355,12 @@ echo "=============== Dev / Apps / Virtualbox (2) ==============="
 yay -S virtualbox virtualbox-host-dkms --noconfirm
 clear
 
-echo "=============== Dev / Config / Android (3) ==============="
-yay -S android-sdk android-tools kdeconnect --noconfirm
-clear
-
 echo "=============== Dev / Config / Archiso (3) ==============="
 yay -S archiso-git qemu edk2-ovmf --noconfirm
 clear
 
 echo "=============== Dev / Editors (3) ==============="
-yay -S visual-studio-code-insiders-bin intellij-idea-community-edition neovim --noconfirm
+yay -S visual-studio-code-insiders-bin visual-studio-code-bin neovim --noconfirm
 clear
 
 echo "=============== Dev / Editors / Emacs (2) ==============="
@@ -377,14 +369,6 @@ clear
 
 echo "=============== Dev / Lang / Js (2) ==============="
 yay -S nvm-git yarn --noconfirm
-clear
-
-echo "=============== Dev / Lang / Php! (5) ==============="
-yay -S apache mysql php php-apache phpmyadmin --noconfirm
-clear
-
-echo "=============== Dev / Lang / Java (3) ==============="
-yay -S jdk glassfish5 processing --noconfirm
 clear
 
 echo "=============== Dev / Lang / Json (1) ==============="
@@ -408,7 +392,7 @@ yay -S elixir inotify-tools --noconfirm
 clear
 
 echo "=============== Dev / Lang / Haskell (3) ==============="
-yay -S ghc cabal-install-bin stack --noconfirm
+yay -S ghc cabal-install stack --noconfirm
 clear
 
 echo "=============== Dev / Lang / Lisp (1) ==============="
@@ -420,7 +404,7 @@ yay -S pandoc-bin --noconfirm
 clear
 
 echo "=============== Dev / Db / Postgres (2) ==============="
-yay -S postgresql pgadmin4 --noconfirm
+yay -S postgresql pgadmin4-desktop --noconfirm
 clear
 
 
@@ -429,14 +413,6 @@ clear
 
 echo "=============== Plasma / Desktop (1) ==============="
 yay -S superpaper --noconfirm
-clear
-
-echo "=============== Plasma / Desktop / Kvantum (1) ==============="
-yay -S kvantum-qt5-git --noconfirm
-clear
-
-echo "=============== Plasma / Desktop / Kvantum / Theme (1) ==============="
-yay -S kvantum-theme-layan-git --noconfirm
 clear
 
 echo "=============== Plasma / Desktop / Taskbars (1) ==============="

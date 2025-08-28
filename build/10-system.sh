@@ -3,7 +3,7 @@ yay -S tree words stow --noconfirm
 clear
 
 echo "=============== System / Book (2) ==============="
-yay -S calibre fbreader-qt5 --noconfirm
+yay -S calibre fbreader --noconfirm
 clear
 
 echo "=============== System / Color (1) ==============="
@@ -14,8 +14,8 @@ echo "=============== System / Wine (3) ==============="
 yay -S wine winetricks lutris --noconfirm
 clear
 
-echo "=============== System / Game (2) ==============="
-yay -S tlauncher-org mcaselector --noconfirm
+echo "=============== System / Game (1) ==============="
+yay -S mcaselector --noconfirm
 clear
 
 echo "=============== System / Clock (1) ==============="
@@ -94,8 +94,8 @@ echo "=============== System / Apps / Browsers (3) ==============="
 yay -S firefox chromium i2p-bin --noconfirm
 clear
 
-echo "=============== System / Apps / Messaging (3) ==============="
-yay -S element-desktop zoom whatsapp-nativefier --noconfirm
+echo "=============== System / Apps / Messaging (1) ==============="
+yay -S element-desktop --noconfirm
 clear
 
 echo "=============== System / Apps / Messaging / Discord (2) ==============="
@@ -202,8 +202,8 @@ echo "=============== System / Terminal / Multiplexers (1) ==============="
 yay -S tmux --noconfirm
 clear
 
-echo "=============== System / Terminal / Shell / Zsh (1) ==============="
-yay -S zsh --noconfirm
+echo "=============== System / Terminal / Shell / Zsh (2) ==============="
+yay -S zsh zinit --noconfirm
 clear
 
 echo "=============== System / Terminal / Shell / Zsh / Config (2) ==============="
@@ -231,7 +231,7 @@ yay -S gotop-bin htop tiptop-cli --noconfirm
 clear
 
 echo "=============== System / Terminal / Commandline / Sysinfo (4) ==============="
-yay -S neofetch inxi tldr macchina-bin --noconfirm
+yay -S neofetch inxi tldr macchina --noconfirm
 clear
 
 echo "=============== System / Terminal / Commandline / Lazy (2) ==============="
@@ -310,10 +310,6 @@ echo "=============== System / Fonts / Editor (1) ==============="
 yay -S gucharmap --noconfirm
 clear
 
-echo "=============== System / Fonts / Nerd (1) ==============="
-yay -S nerd-fonts-complete --noconfirm
-clear
-
 echo "=============== System / Fonts / Misc! (1) ==============="
 yay -S awesome-terminal-fonts --noconfirm
 clear
@@ -323,7 +319,7 @@ yay -S ttc-iosevka ttc-iosevka-ss15 --noconfirm
 clear
 
 echo "=============== System / Fonts / Ttf! (14) ==============="
-yay -S ttf-fira-code ttf-material-design-icons-extended ttf-material-design-icons-git ttf-ibm-plex-mono-git ttf-liberation ttf-roboto ttf-dejavu ttf-droid ttf-inconsolata ttf-liberation ttf-unifont ttf-ms-fonts ttf-liberation ttf-font-icons --noconfirm
+yay -S ttf-fira-code ttf-material-design-icons-extended ttf-material-design-icons-git ttf-ibm-plex ttf-liberation ttf-roboto ttf-dejavu ttf-droid ttf-inconsolata ttf-liberation ttf-unifont ttf-ms-fonts ttf-liberation ttf-font-icons --noconfirm
 clear
 
 echo "=============== System / Fonts / Emoji! (1) ==============="

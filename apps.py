@@ -1,9 +1,9 @@
 system = {
     "system":                   ["tree", "words", "stow"],
-    "book":                     ["calibre", "fbreader-qt5"],
+    "book":                     ["calibre", "fbreader"],
     "color":                    ["python-pywal"],
     "wine":                     ["wine", "winetricks", "lutris"],
-    "game":                     ["tlauncher-org", "mcaselector"],
+    "game":                     ["mcaselector"],
     "clock":                    ["ntp"],
     "keyboard ":                ["xkeycaps"],
     "cleaning":                 ["bleachbit"],
@@ -30,7 +30,7 @@ system = {
     "apps/torrent":             ["qbittorrent", "stremio"],
     "apps/browsers":            ["firefox", "chromium", "i2p-bin"],
 
-    "apps/messaging":           ["element-desktop", "zoom", "whatsapp-nativefier"],
+    "apps/messaging":           ["element-desktop"],
     "apps/messaging/discord":   ["discord_arch_electron", "betterdiscordctl-git"],
 
     "apps/spotify":             ["spotify", "zenity", "ffmpeg-compat-57"],
@@ -117,7 +117,7 @@ system = {
     "terminal/commandline/color":       ["bat", "most"],
     "terminal/commandline/finder":      ["fd", "fzf", "the_silver_searcher"],
     "terminal/commandline/taskmanager": ["gotop-bin", "htop", "tiptop-cli"],
-    "terminal/commandline/sysinfo":     ["neofetch", "inxi", "tldr", "macchina-bin"],
+    "terminal/commandline/sysinfo":     ["neofetch", "inxi", "tldr", "macchina"],
     "terminal/commandline/lazy":        ["lazygit", "lazydocker"],
     "terminal/commandline/fun":         ["cava", "cbonsai", "lolcat", "hollywood"],
 
@@ -154,14 +154,14 @@ system = {
     #                               Fonts
     # -----------------------------------------------------------------------------------#
     "fonts/editor":             ["gucharmap"],
-    "fonts/nerd":               ["nerd-fonts-complete"],
+    # "fonts/nerd":               ["nerd-fonts-complete"],
     "fonts/misc!":              ["awesome-terminal-fonts"],
     "fonts/ttc!":               ["ttc-iosevka",
                                  "ttc-iosevka-ss15"],
     "fonts/ttf!":               ["ttf-fira-code",
                                  "ttf-material-design-icons-extended",
                                  "ttf-material-design-icons-git",
-                                 "ttf-ibm-plex-mono-git",
+                                 "ttf-ibm-plex",
                                  "ttf-liberation",
                                  "ttf-roboto",
                                  "ttf-dejavu",
@@ -182,32 +182,32 @@ development = {
     "apps/vm":                  ["docker"],
     "apps/virtualbox":          ["virtualbox", "virtualbox-host-dkms"],
 
-    "config/android":           ["android-sdk", "android-tools", "kdeconnect"],
+    # "config/android":           ["android-sdk", "android-tools", "kdeconnect"],
     "config/archiso":           ["archiso-git", "qemu", "edk2-ovmf"],
 
     # -----------------------------------------------------------------------------------#
     #                               Development environments
     # -----------------------------------------------------------------------------------#
     "editors":                  ["visual-studio-code-insiders-bin",
-                                 "intellij-idea-community-edition",
+                                 "visual-studio-code-bin",
                                  "neovim"],
     "editors/emacs":            ["emacs", "ripgrep"],
 
     # -----------------------------------------------------------------------------------#
     #                               Lang
     # -----------------------------------------------------------------------------------#
+    # "lang/java":                ["jdk", "glassfish5", "processing"],
+    # "lang/php":                ["apache", "mysql", "php", "php-apache", "phpmyadmin"],
     "lang/js":                  ["nvm-git", "yarn"],
-    "lang/php!":                ["apache", "mysql", "php", "php-apache", "phpmyadmin"],
-    "lang/java":                ["jdk", "glassfish5", "processing"],
     "lang/json":                ["jq"],
     "lang/shell":               ["shellcheck"],
     "lang/ocaml":               ["opam"],
     "lang/python":              ["python", "autopep8"],
     "lang/elixir":              ["elixir", "inotify-tools"],
-    "lang/haskell":             ["ghc", "cabal-install-bin", "stack"],
+    "lang/haskell":             ["ghc", "cabal-install", "stack"],
     "lang/lisp":                ["racket"],
     "lang/mark":                ["pandoc-bin"],
-    "db/postgres":              ["postgresql", "pgadmin4"]
+    "db/postgres":              ["postgresql", "pgadmin4-desktop"]
 
 }
 
@@ -215,9 +215,9 @@ development = {
 
 plasma = {
     "desktop":                  ["superpaper"],
-    "desktop/kvantum":          ["kvantum-qt5-git"],
-    "desktop/kvantum/theme":    ["kvantum-theme-layan-git"],
     "desktop/taskbars":         ["plank"],
+    # "desktop/kvantum":          ["kvantum-qt5-git"],
+    # "desktop/kvantum/theme":    ["kvantum-theme-layan-git"], No AUR package found
 }
 
 xfce = {
