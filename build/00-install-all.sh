@@ -111,8 +111,8 @@ echo "=============== System / Apps / Messaging / Discord (2) ==============="
 yay -S discord_arch_electron betterdiscordctl-git --noconfirm
 clear
 
-echo "=============== System / Apps / Spotify (3) ==============="
-yay -S spotify zenity ffmpeg-compat-57 --noconfirm
+echo "=============== System / Apps / Spotify (2) ==============="
+yay -S spotify zenity --noconfirm
 clear
 
 echo "=============== System / Apps / Spotify / Spicetify (2) ==============="
@@ -275,8 +275,8 @@ echo "=============== System / File / Archivemanagers (2) ==============="
 yay -S ark xarchiver --noconfirm
 clear
 
-echo "=============== System / File / Archivemanagers / Console (5) ==============="
-yay -S rar unrar zip unzip p7zip --noconfirm
+echo "=============== System / File / Archivemanagers / Console (4) ==============="
+yay -S rar unrar zip unzip --noconfirm
 clear
 
 echo "=============== System / Filesystem (2) ==============="
@@ -353,10 +353,6 @@ clear
 
 echo "=============== Dev / Apps / Virtualbox (2) ==============="
 yay -S virtualbox virtualbox-host-dkms --noconfirm
-clear
-
-echo "=============== Dev / Config / Archiso (3) ==============="
-yay -S archiso-git qemu edk2-ovmf --noconfirm
 clear
 
 echo "=============== Dev / Editors (3) ==============="
@@ -464,7 +460,7 @@ yay -S wmctrl --noconfirm
 clear
 
 echo "=============== XFCE / I3 (3) ==============="
-yay -S i3-gaps autotiling perl-anyevent-i3 --noconfirm
+yay -S i3 autotiling perl-anyevent-i3 --noconfirm
 clear
 
 echo "=============== XFCE / I3 / Lock (1) ==============="

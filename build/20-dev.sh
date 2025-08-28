@@ -14,10 +14,6 @@ echo "=============== Dev / Apps / Virtualbox (2) ==============="
 yay -S virtualbox virtualbox-host-dkms --noconfirm
 clear
 
-echo "=============== Dev / Config / Archiso (3) ==============="
-yay -S archiso-git qemu edk2-ovmf --noconfirm
-clear
-
 echo "=============== Dev / Editors (3) ==============="
 yay -S visual-studio-code-insiders-bin visual-studio-code-bin neovim --noconfirm
 clear

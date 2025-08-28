@@ -33,7 +33,7 @@ system = {
     "apps/messaging":           ["element-desktop"],
     "apps/messaging/discord":   ["discord_arch_electron", "betterdiscordctl-git"],
 
-    "apps/spotify":             ["spotify", "zenity", "ffmpeg-compat-57"],
+    "apps/spotify":             ["spotify", "zenity"],
     "apps/spotify/spicetify":   ["spicetify-cli", "spicetify-themes-git"],
 
     # -----------------------------------------------------------------------------------#
@@ -135,7 +135,7 @@ system = {
     #                               Files
     # -----------------------------------------------------------------------------------#
     "file/archivemanagers":             ["ark", "xarchiver"],
-    "file/archivemanagers/console":     ["rar", "unrar", "zip", "unzip", "p7zip"],
+    "file/archivemanagers/console":     ["rar", "unrar", "zip", "unzip"],
 
     "filesystem":                       ["sshfs", "ntfs-3g"],
     "filesystem/mtp":                   ["mtpfs", "jmtpfs"],
@@ -183,7 +183,7 @@ development = {
     "apps/virtualbox":          ["virtualbox", "virtualbox-host-dkms"],
 
     # "config/android":           ["android-sdk", "android-tools", "kdeconnect"],
-    "config/archiso":           ["archiso-git", "qemu", "edk2-ovmf"],
+    # "config/archiso":           ["archiso-git", "qemu", "edk2-ovmf"],
 
     # -----------------------------------------------------------------------------------#
     #                               Development environments
@@ -251,7 +251,7 @@ xfce = {
     #                               i3
     # -----------------------------------------------------------------------------------#
     "wm":                       ["wmctrl"],
-    "i3":                       ["i3-gaps", "autotiling", "perl-anyevent-i3"],
+    "i3":                       ["i3", "autotiling", "perl-anyevent-i3"],
     "i3/lock":                  ["i3lock"],
     "i3/bar":                   ["i3blocks", "py3status", "polybar"],
 
