@@ -158,22 +158,23 @@ system = {
     "fonts/misc!":              ["awesome-terminal-fonts"],
     "fonts/ttc!":               ["ttc-iosevka",
                                  "ttc-iosevka-ss15"],
-    "fonts/ttf!":               ["ttf-fira-code",
-                                 "ttf-material-design-icons-extended",
-                                 "ttf-material-design-icons-git",
-                                 "ttf-ibm-plex",
-                                 "ttf-liberation",
-                                 "ttf-roboto",
-                                 "ttf-dejavu",
+    "fonts/ttf!":               ["ttf-dejavu",
                                  "ttf-droid",
+                                 "ttf-fira-code",
+                                 "ttf-font-icons"
+                                 "ttf-hack"
+                                 "ttf-icomoon-feather",
                                  "ttf-inconsolata",
-                                 "ttf-liberation",
+                                 "ttf-iosevka", # 142v
+                                 "ttf-iosevka-nerd",
+                                 "ttf-material-design-icons-extended", # Mais atualizado
+                                 "ttf-material-design-icons-git",
+                                 "ttf-ms-fonts", # 2152v
+                                 "ttf-roboto",
                                  "ttf-unifont",
-                                 "ttf-ms-fonts",
-                                 "ttf-liberation",
-                                 "ttf-font-icons"],
+                                 "ttf-ibm-plex",
+                                 "ttf-liberation"],
     "fonts/emoji!":              ["noto-fonts-emoji"],
-
 }
 
 development = {

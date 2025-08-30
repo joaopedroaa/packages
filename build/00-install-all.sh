@@ -328,7 +328,7 @@ yay -S ttc-iosevka ttc-iosevka-ss15 --noconfirm
 clear
 
 echo "=============== System / Fonts / Ttf! (14) ==============="
-yay -S ttf-fira-code ttf-material-design-icons-extended ttf-material-design-icons-git ttf-ibm-plex ttf-liberation ttf-roboto ttf-dejavu ttf-droid ttf-inconsolata ttf-liberation ttf-unifont ttf-ms-fonts ttf-liberation ttf-font-icons --noconfirm
+yay -S ttf-dejavu ttf-droid ttf-fira-code ttf-font-iconsttf-hackttf-icomoon-feather ttf-inconsolata ttf-iosevka ttf-iosevka-nerd ttf-material-design-icons-extended ttf-material-design-icons-git ttf-ms-fonts ttf-roboto ttf-unifont ttf-ibm-plex ttf-liberation --noconfirm
 clear
 
 echo "=============== System / Fonts / Emoji! (1) ==============="
