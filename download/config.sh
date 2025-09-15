@@ -15,6 +15,7 @@ systemctl_enable() {
     sudo systemctl enable "$1"
     sudo systemctl restart "$1"
     sudo systemctl status "$1"
+    clear
 }
 
 
@@ -35,6 +36,8 @@ sudo timedatectl set-timezone America/Sao_Paulo # timedatectl set-timezone "$(cu
 echo_separate "Habilitando e Iniciando Serviços (Systemd)"
 
 systemctl_enable systemd-timesyncd
+systemctl_enable systemd-resolved
+systemctl_enable forticlient
 systemctl_enable docker
 systemctl_enable httpd
 systemctl_enable mysqld
